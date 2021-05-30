@@ -1,42 +1,18 @@
-<html>
-<head>
-<meta charset="utf-8">
-<title>タイトル</title>
-<script type="text/javascript"
-  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    TeX: { equationNumbers: { autoNumber: "AMS" }},
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    },
-    "HTML-CSS": { matchFontHeight: false },
-    displayAlign: "left",
-    displayIndent: "2em"
-  });
-</script>
-</head>
-</head>
-<body>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
 
-<h1>テスト（工事中）</h1>
-<math>
-    <mn>4</mn>
-    <msup>
-      <mi>sin</mi>
-      <mn>2</mn>
-    </msup>
-    <mi>x</mi>
-    <mo>-</mo>
-    <mn>4</mn>
-    <msup>
-      <mi>cos</mi>
-      <mn>2</mn>
-    </msup>
-    <mi>x</mi>
-</math>
+  <head>
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+  </head>
 
-</body>
+  <body>
+    <p>フーリエ変換は次のように定義されます．</p>
+
+    \begin{align}
+    F(\omega) = \cfrac{1}{\sqrt{2\pi}}\int_{-\infty}^{+\infty}f(t)e^{i\omega t}dt
+    \end{align}
+
+  </body>
 </html>
