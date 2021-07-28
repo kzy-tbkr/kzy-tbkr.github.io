@@ -14,3 +14,20 @@
         1. う
 1. か
 1. さ
+
+## 装飾
+コードは`バッククオート`
+
+取り消しは~~チルダ~~
+
+## 表
+|title|description|
+|:--:|:--|
+|Hoge|This is hoge.|
+|Foo|Foo is foo.|
+
+
+---
+
+## 参考サイト
+https://qiita.com/tbpgr/items/989c6badefff69377da7
