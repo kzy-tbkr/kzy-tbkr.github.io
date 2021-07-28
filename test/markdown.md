@@ -1,7 +1,6 @@
+# markdownの例
 
     .mdファイルをpushすると自動でhtmlに変換されるみたい．すごい
-
-# markdownの例
 
 ## 箇条書き
 - hoge
