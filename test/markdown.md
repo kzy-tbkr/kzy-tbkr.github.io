@@ -21,6 +21,7 @@
 取り消しは~~チルダ~~
 
 ## 表
+
 |title|description|
 |:--:|:--|
 |Hoge|This is hoge.|
