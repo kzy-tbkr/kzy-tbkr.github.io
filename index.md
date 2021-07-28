@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: ja-JP
 title: kzy21のメモ
 ---
 
