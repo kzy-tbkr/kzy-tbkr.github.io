@@ -8,5 +8,5 @@ title: markdownで数式の例
 フーリエ変換は次のように定義されます．
 
 ```mathjax
-$$F(\omega) = \cfrac{1}{\sqrt{2\pi}}\int_{\infty}^{+\infty}f(t)e^{i\omega t}dt$$
+$$\begin{eqnarray}F(\omega) = \cfrac{1}{\sqrt{2\pi}}\int_{\infty}^{+\infty}f(t)e^{i\omega t}dt\end{eqnarray}$$
 ```
