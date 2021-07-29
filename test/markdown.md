@@ -1,3 +1,8 @@
+---
+layout: default
+title: markdownの例
+---
+
     .mdファイルをpushすると自動でhtmlに変換されるみたい．すごい
 
 - [ホームへ戻る](../)
