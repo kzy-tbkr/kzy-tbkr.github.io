@@ -7,6 +7,8 @@ title: markdownの例
 
 - [ホームへ戻る](../)
 
+---
+
 # markdownの例
 
 ## 箇条書き
