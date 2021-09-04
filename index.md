@@ -3,8 +3,6 @@ layout: default
 title: kzy's homepage
 ---
 
-## プロフィール
-
 ## コンテンツ
 
 ### markdown関係
