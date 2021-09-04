@@ -3,9 +3,6 @@ layout: default
 title: 論文リスト
 ---
 
-- [ホームへ戻る](../)
----
-
 ## RoboCup
 
 ## 対話システム
