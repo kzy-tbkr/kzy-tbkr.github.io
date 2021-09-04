@@ -15,4 +15,4 @@ title: kzy's homepage
 - [勉強用リポジトリ](https://github.com/kzy-tbkr/Study)
 
 ## 論文とか
-- [論文リスト](./paper/paper.html)
+- [論文リスト](./publication/publication.html)
