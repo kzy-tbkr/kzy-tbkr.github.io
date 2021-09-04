@@ -14,3 +14,4 @@ title: kzy's homepage
 
 ## 論文とか
 - [論文リスト](./publication/publication.html)
+- [参加コンペリスト](./publication/compe.html)
