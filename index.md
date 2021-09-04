@@ -9,5 +9,5 @@ title: kzy's homepage
 
 ## コンテンツ
 
-- [markdownの例](./test/markdown.html)
-- [markdownで数式の例](./test/formula.html)
+- [markdownの例](./md/markdown.html)
+- [markdownで数式の例](./md/formula.html)
