@@ -23,6 +23,6 @@ title: 出場したコンペなどの記録
 - [対話システムライブコンペティション3](https://dialog-system-live-competition.github.io/dslc3/index.html) シチュエーショントラック
 
 ## 2021
-- SamurAI Coding 2020-21
-- クイズAI
+- [SamurAI Coding 2020-21](https://samuraicoding.info/)，情報処理学会
+- [AI王～クイズAI日本一決定戦～](https://sites.google.com/view/nlp2021-aio/)，言語処理学会
 - [第3回人狼知能国際大会](http://aiwolf.org/3rd-international-aiwolf-contest)
