@@ -44,4 +44,4 @@ title: markdownの例
 - [Markdown記法 サンプル集 (Qiita)](https://qiita.com/tbpgr/items/989c6badefff69377da7)
 
 ---
-[ホームへ戻る](../)
+- [ホームへ戻る](../)
