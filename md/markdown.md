@@ -42,3 +42,6 @@ title: markdownの例
 
 ## 参考サイト
 - [Markdown記法 サンプル集 (Qiita)](https://qiita.com/tbpgr/items/989c6badefff69377da7)
+
+---
+[ホームへ戻る](../)
