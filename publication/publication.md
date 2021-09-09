@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 論文リスト
+title: 発表文献リスト
 ---
 
 ## RoboCup
