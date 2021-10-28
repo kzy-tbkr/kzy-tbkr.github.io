@@ -30,6 +30,8 @@ title: 出場したコンペなどの記録
   - 決勝進出
 - [AI王～クイズAI日本一決定戦～](https://sites.google.com/view/nlp2021-aio/)，言語処理学会
 - [第3回人狼知能国際大会](http://aiwolf.org/3rd-international-aiwolf-contest)
+- []
+- []
 
 ---
 - [ホームへ戻る](../)
