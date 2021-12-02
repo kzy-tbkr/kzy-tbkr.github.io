@@ -31,6 +31,7 @@ title: 出場したコンペなどの記録
 - [AI王～クイズAI日本一決定戦～](https://sites.google.com/view/nlp2021-aio/)，言語処理学会
 - [第3回人狼知能国際大会](http://aiwolf.org/3rd-international-aiwolf-contest)
 - [対話ロボットコンペティション](https://sites.google.com/view/crobotcompetition/)
+- [対話システムライブコンペティション4](https://dialog-system-live-competition.github.io/dslc4/index.html)，第12回対話システムシンポジウム
 
 ---
 - [ホームへ戻る](../)
