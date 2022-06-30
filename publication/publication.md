@@ -4,8 +4,8 @@ title: 発表文献リスト
 ---
 
 ## 国際会議
-- Kazuya Tsubokura, Takashi Kuboya, Takuma Tachi, Akihisa Sanae, and Kunikazu Kobayashi: [A digital speech watermarking method using spread spectrum for secret communication in RoboCup Soccer](https://2021.robocupap.org/file/04-PM1-2-Tsubokura.pdf), RoboCup Asia-Pacific 2021 Symposium
-, RCAP2021-04-PM1-2(2021).
+- Kazuya Tsubokura, Takashi Kuboya, Takuma Tachi, Akihisa Sanae, and Kunikazu Kobayashi: [A digital speech watermarking method using spread spectrum for secret communication in RoboCup Soccer](https://2021.robocupap.org/file/04-PM1-2-Tsubokura.pdf), RoboCup Asia-Pacific 2021 Symposium, RCAP2021-04-PM1-2(2021).
+  - ロボカップ研究賞 受賞
 
 ## 国内会議
 - 坪倉 和哉，久保谷 空史，舘 拓磨，小林 邦和：[RoboCupサッカーおける秘匿通信のためのスペクトル拡散を用いた音声電子透かし法の提案](http://www.osaka-kyoiku.ac.jp/~challeng/SIG-Challenge-057/)，人工知能学会 AIチャレンジ研究会(第57回)，pp.100-105，2020．
