@@ -6,6 +6,7 @@ title: 発表文献リスト
 ## 国際会議
 - Kazuya Tsubokura, Takashi Kuboya, Takuma Tachi, Akihisa Sanae, and Kunikazu Kobayashi: [A digital speech watermarking method using spread spectrum for secret communication in RoboCup Soccer](https://www.osaka-kyoiku.ac.jp/~challeng/RCAP2021/symposium_overview.html), Proc. of RoboCup Asia-Pacific 2021 Symposium, RCAP2021-04-PM1-2, 11pagees, Nov. 2021.
   - ロボカップ研究賞 受賞
+- Kazuya Tsubokura, Yurie Iribe, and Norihide Kitaoka: Dialog Breakdown Detection Using Multimodal Features for Non-Task-Oriented Dialog Systems, Proc. of IEEE GCCE 2022, Oct. 2022.
 
 ## 国内会議
 - 坪倉 和哉，久保谷 空史，舘 拓磨，小林 邦和：[RoboCupサッカーおける秘匿通信のためのスペクトル拡散を用いた音声電子透かし法の提案](http://www.osaka-kyoiku.ac.jp/~challeng/SIG-Challenge-057/)，人工知能学会 AIチャレンジ研究会(第57回)，pp.100-105，Nov. 2020．
@@ -18,7 +19,6 @@ title: 発表文献リスト
 - 坪倉 和哉，久保谷 空史，早苗 昭尚，大橋 玲音，堀川 裕真，小林 邦和：コードネームのゲームAI実装に向けたヒント行為の分類，2022年度人工知能学会全国大会（第36回），OS-26a-02，June 2022．
 - 武田 拓也，坪倉 和哉，入部 百合絵，北岡 教英：テキストチャットの対話破綻時におけるユーザ応答時間の分析，令和四年度電気・電子・情報関連学会東海支部連合大会，G5-3，Aug. 2022．
 - 坪倉 和哉，入部 百合絵，北岡 教英：マルチモーダル対話システムにおける対話破綻時のユーザの個人差，日本音響学会第148回（2022年秋季）研究発表会，3-Q-13，Sep. 2022．
-
 
 ## 奨学金・資金獲得等
 - 愛知県ロボット国際大会競技チーム強化支援事業（2019）
