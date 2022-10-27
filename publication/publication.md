@@ -7,6 +7,8 @@ title: 発表文献リスト
 - Kazuya Tsubokura, Takashi Kuboya, Takuma Tachi, Akihisa Sanae, and Kunikazu Kobayashi: [A digital speech watermarking method using spread spectrum for secret communication in RoboCup Soccer](https://www.osaka-kyoiku.ac.jp/~challeng/RCAP2021/symposium_overview.html), Proc. of RoboCup Asia-Pacific 2021 Symposium, RCAP2021-04-PM1-2, 11pagees, Nov. 2021.
   - ロボカップ研究賞 受賞
 - Kazuya Tsubokura, Yurie Iribe, and Norihide Kitaoka: Dialog Breakdown Detection Using Multimodal Features for Non-Task-Oriented Dialog Systems, Proc. of IEEE GCCE 2022, Oct. 2022.
+- Kazuya Tsubokura, Fumiya Kishi, Kotomi Narita, Takuya Takeda, and Yurie Iribe: [Hospitable Travel Agent Dialogue Robot: Team Irisapu Project Description for DRC2022](https://arxiv.org/abs/2210.09790), Proc. of [the Dialogue Robot Competition 2022](https://sites.google.com/view/drc2022-jp), Oct. 2022.
+  - Honorable Mention Award 受賞
 
 ## 国内会議
 - 坪倉 和哉，久保谷 空史，舘 拓磨，小林 邦和：[RoboCupサッカーおける秘匿通信のためのスペクトル拡散を用いた音声電子透かし法の提案](http://www.osaka-kyoiku.ac.jp/~challeng/SIG-Challenge-057/)，人工知能学会 AIチャレンジ研究会(第57回)，pp.100-105，Nov. 2020．
@@ -31,6 +33,7 @@ title: 発表文献リスト
 - ロボカップジャパンオープン2019 サッカー標準プラットフォームリーグ優勝，ロボカップ日本委員会，2019年8月．
 - 電子情報通信学会東海支部令和二年度学業成績優秀賞 受賞，電気情報通信学会東海支部，2022年3月．
 - ロボカップ研究賞 受賞，ロボカップ日本委員会，2022年6月．
+- Dialogue Robot Competition 2022 Honorable Mention Award, DRC2022 Executive Committee, Oct. 25, 2022.
 
 ## 資格
 - ITパスポート試験
