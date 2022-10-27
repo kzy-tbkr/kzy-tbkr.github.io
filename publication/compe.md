@@ -33,5 +33,9 @@ title: 出場したコンペなどの記録
 - [対話ロボットコンペティション](https://sites.google.com/view/crobotcompetition/)
 - [対話システムライブコンペティション4](https://dialog-system-live-competition.github.io/dslc4/index.html)，第12回対話システムシンポジウム
 
+## 2022
+- [対話ロボットコンペティション 2022](https://sites.google.com/view/drc2022-jp)
+  - Honorable Mention Award 受賞
+
 ---
 - [ホームへ戻る](../)
