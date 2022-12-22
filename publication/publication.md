@@ -5,8 +5,8 @@ title: 発表文献リスト
 - [ホームへ戻る](../)
 
 ## 国際会議
-1. Kazuya Tsubokura, Takashi Kuboya, Takuma Tachi, Akihisa Sanae, and Kunikazu Kobayashi: [A digital speech watermarking method using spread spectrum for secret communication in RoboCup Soccer](https://www.osaka-kyoiku.ac.jp/~challeng/RCAP2021/symposium_overview.html), Proc. of RoboCup Asia-Pacific 2021 Symposium, RCAP2021-04-PM1-2, 11pages, Nov. 2021.
-   - ロボカップ研究賞 受賞
+1. Kazuya Tsubokura, Takashi Kuboya, Takuma Tachi, Akihisa Sanae, and Kunikazu Kobayashi:<br>[A digital speech watermarking method using spread spectrum for secret communication in RoboCup Soccer](https://www.osaka-kyoiku.ac.jp/~challeng/RCAP2021/symposium_overview.html), <br>Proc. of RoboCup Asia-Pacific 2021 Symposium, RCAP2021-04-PM1-2, 11pages, Nov. 2021.
+   - <span style="color: red; ">__ロボカップ研究賞 受賞__</span>
 1. Kazuya Tsubokura, Yurie Iribe, and Norihide Kitaoka: Dialog Breakdown Detection Using Multimodal Features for Non-Task-Oriented Dialog Systems, Proc. of IEEE GCCE 2022, Oct. 2022.
 1. Kazuya Tsubokura, Fumiya Kishi, Kotomi Narita, Takuya Takeda, and Yurie Iribe: [Hospitable Travel Agent Dialogue Robot: Team Irisapu Project Description for DRC2022](https://arxiv.org/abs/2210.09790), Proc. of [the Dialogue Robot Competition 2022](https://sites.google.com/view/drc2022-jp), Oct. 2022.
     - Honorable Mention Award 受賞
