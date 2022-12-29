@@ -36,6 +36,7 @@ title: 出場したコンペなどの記録
 ## 2022
 - [対話ロボットコンペティション 2022](https://sites.google.com/view/drc2022-jp)
   - Honorable Mention Award 受賞
+- [対話システムライブコンペティション5](https://sites.google.com/view/dslc5)，第13回対話システムシンポジウム
 
 ---
 - [ホームへ戻る](../)
