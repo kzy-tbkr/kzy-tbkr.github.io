@@ -17,7 +17,7 @@ title: Kazuya Tsubokura
 - 看護情報学
 
 ## 発表文献等
-- [発表文献リスト](./publication/publication.html)
+- [業績一覧](./publication/publication.html)
 - [出場したコンペなどの記録](./publication/compe.html)
 
 ## メモ
