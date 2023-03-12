@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 発表文献リスト
+title: 業績一覧
 ---
 - [ホームへ戻る](../)
 
