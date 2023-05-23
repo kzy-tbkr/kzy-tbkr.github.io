@@ -17,7 +17,7 @@ title: 業績一覧
 1. You Aizawa, Kenta Hidaka, Nodoka Mori, Kosei Ohkusu, Kazuho Takahashi, Yoshiyuki Uemura, Mikiya Chiba, Keiji Hayashi, Kazuki Ito, Toshiki Nagami, Yuji Shimizu, Yuji Yamada, Kouki Hosokawa, Shinya Ito, Takashi Kuboya, Goki Ohta, Takuma Tachi, Kazumi Tanabe, Kazuya Tsubokura, Takuo Suzuki, and Kunikazu Kobayashi:
 <br>Camellia Dragons Team Description.
 <br>Proc. of the 22th Annual RoboCup International Symposium, June 2018.
-1. 1. Kazuho Takahashi, Kosei Ohkusu, Nodoka Mori, Yoshiyuki Uemura, Keiji Hayashi, Mikiya Chiba, Toshiki Nagami, Yuji Yamada, Atsuno Yamaguchi, Natsuki Kato, Masaya Tamai, Takaya Shimizu, Tomoki Tsukamoto, Kazuya Tsubokura, Kouki Hosokawa, Takuma Tachi, Takashi Kuboya, Akihisa Sanae, Takuo Suzuki, and Kunikazu Kobayashi:
+1. Kazuho Takahashi, Kosei Ohkusu, Nodoka Mori, Yoshiyuki Uemura, Keiji Hayashi, Mikiya Chiba, Toshiki Nagami, Yuji Yamada, Atsuno Yamaguchi, Natsuki Kato, Masaya Tamai, Takaya Shimizu, Tomoki Tsukamoto, Kazuya Tsubokura, Kouki Hosokawa, Takuma Tachi, Takashi Kuboya, Akihisa Sanae, Takuo Suzuki, and Kunikazu Kobayashi:
 <br>Camellia Dragons Team Description.
 <br>Proc. of the 23th Annual RoboCup International Symposium, July 2019.
 1. Kazuya Tsubokura, Fumiya Kishi, Kotomi Narita, Takuya Takeda, and Yurie Iribe:
