@@ -4,7 +4,7 @@ title: 業績一覧
 ---
 - [ホームへ戻る](../)
 
-## 国際会議
+## 国際会議（査読あり）
 1. Kazuya Tsubokura, Takashi Kuboya, Takuma Tachi, Akihisa Sanae, and Kunikazu Kobayashi:
 <br>[A digital speech watermarking method using spread spectrum for secret communication in RoboCup Soccer](https://www.osaka-kyoiku.ac.jp/~challeng/RCAP2021/symposium_overview.html),
 <br>Proc. of RoboCup Asia-Pacific 2021 Symposium, RCAP2021-04-PM1-2, 11pages, Nov. 2021.
@@ -12,10 +12,17 @@ title: 業績一覧
 1. Kazuya Tsubokura, Yurie Iribe, and Norihide Kitaoka:
 <br>[Dialog Breakdown Detection Using Multimodal Features for Non-Task-Oriented Dialog Systems](https://ieeexplore.ieee.org/document/10014052),
 <br>Proc. of IEEE GCCE 2022, Oct. 2022.
+
+## 国際会議（査読なし）
+1. You Aizawa, Kenta Hidaka, Nodoka Mori, Kosei Ohkusu, Kazuho Takahashi, Yoshiyuki Uemura, Mikiya Chiba, Keiji Hayashi, Kazuki Ito, Toshiki Nagami, Yuji Shimizu, Yuji Yamada, Kouki Hosokawa, Shinya Ito, Takashi Kuboya, Goki Ohta, Takuma Tachi, Kazumi Tanabe, Kazuya Tsubokura, Takuo Suzuki, and Kunikazu Kobayashi:
+<br>Camellia Dragons Team Description.
+<br>Proc. of the 22th Annual RoboCup International Symposium, June 2018.
+1. 1. Kazuho Takahashi, Kosei Ohkusu, Nodoka Mori, Yoshiyuki Uemura, Keiji Hayashi, Mikiya Chiba, Toshiki Nagami, Yuji Yamada, Atsuno Yamaguchi, Natsuki Kato, Masaya Tamai, Takaya Shimizu, Tomoki Tsukamoto, Kazuya Tsubokura, Kouki Hosokawa, Takuma Tachi, Takashi Kuboya, Akihisa Sanae, Takuo Suzuki, and Kunikazu Kobayashi:
+<br>Camellia Dragons Team Description.
+<br>Proc. of the 23th Annual RoboCup International Symposium, July 2019.
 1. Kazuya Tsubokura, Fumiya Kishi, Kotomi Narita, Takuya Takeda, and Yurie Iribe:
 <br>[Hospitable Travel Agent Dialogue Robot: Team Irisapu Project Description for DRC2022](https://arxiv.org/abs/2210.09790),
 <br>Proc. of [the Dialogue Robot Competition 2022](https://sites.google.com/view/drc2022-jp), Oct. 2022.
-    - __<span style="color: red; ">Honorable Mention Award 受賞</span>__
 
 ## 国内会議
 1. 坪倉 和哉，久保谷 空史，舘 拓磨，小林 邦和：<br>[RoboCupサッカーおける秘匿通信のためのスペクトル拡散を用いた音声電子透かし法の提案](http://www.osaka-kyoiku.ac.jp/~challeng/SIG-Challenge-057/)，<br>人工知能学会 AIチャレンジ研究会(第57回)，pp.100-105，Nov. 2020．
