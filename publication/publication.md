@@ -41,7 +41,7 @@ title: 業績一覧
     - __<span style="color: red; ">奨励賞 受賞</span>__
 1. 早苗 昭尚，加藤 勇護，坪倉 和哉，小林 邦和：<br>[不完全情報ゲームCodenamesにおけるプレイヤー間の親密度とゲームへの習熟度がゲームパフォーマンスに与える影響の分析](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q7-7.pdf)，<br>言語処理学会第29回年次大会(NLP2023)，Q7-7，March 2023．
 1. 坪倉 和哉，武田 拓也，入部 百合絵，北岡 教英：<br>[音声対話システムの対話破綻に対するユーザの反応と個人特性との関連](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P8-10.pdf)，<br>言語処理学会第29回年次大会(NLP2023)，P8-10，March 2023．
-1. 大橋 玲音，坪倉 和哉，鈴木 丈慈，坪井 辰馬，小林 邦和：<br>[コードネームピクチャ―ズにおけるヒント決定アルゴリズムの提案と実装](anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q9-13.pdf)，<br>言語処理学会第29回年次大会(NLP2023)，Q9-13，March 2023．
+1. 大橋 玲音，坪倉 和哉，鈴木 丈慈，坪井 辰馬，小林 邦和：<br>[コードネームピクチャ―ズにおけるヒント決定アルゴリズムの提案と実装](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q9-13.pdf)，<br>言語処理学会第29回年次大会(NLP2023)，Q9-13，March 2023．
 1. 大橋 玲音，坪倉 和哉，小林 邦和：<br>[ロボカップサッカーにおける実況システムの提案](https://www.osaka-kyoiku.ac.jp/~challeng/SIG-Challenge-062/)，<br>人工知能学会 AIチャレンジ研究会(第62回)，pp.11-15，May 2023．
 1. 丹澤 優成，坪倉 和哉，大橋 玲音，櫻井 響，小林 邦和：<br>DixitのゲームAI実装に向けたヒントの関連度に着目した評価，<br>2023年度人工知能学会全国大会(第37回)，2F5-GS-5-05，June 2023．
 1. 坪倉 和哉，入部 百合絵，北岡 教英：<br>ユーザの個人特性を考慮したマルチモーダルな対話破綻検出，<br>2023年度人工知能学会全国大会(第37回)，2O5-OS-2a-05，June 2023．
