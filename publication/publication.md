@@ -12,6 +12,9 @@ title: 業績一覧
 1. Kazuya Tsubokura, Yurie Iribe, and Norihide Kitaoka:
 <br>[Dialog Breakdown Detection Using Multimodal Features for Non-Task-Oriented Dialog Systems](https://ieeexplore.ieee.org/document/10014052),
 <br>Proc. of IEEE GCCE 2022, Oct. 2022.
+1. Kazuya Tsubokura, Yurie Iribe, and Norihide Kitaoka:
+<br>[Relationships between Gender, Personality Traits and Features of Multi-Modal Data to Response to Spoken Dialog Systems Breakdown](https://www.isca-speech.org/archive/interspeech_2023/tsubokura23_interspeech.html),
+<br>Proc. of INTERSPEECH2023, Aug. 2023.
 
 ## 国際会議（査読なし）
 1. You Aizawa, Kenta Hidaka, Nodoka Mori, Kosei Ohkusu, Kazuho Takahashi, Yoshiyuki Uemura, Mikiya Chiba, Keiji Hayashi, Kazuki Ito, Toshiki Nagami, Yuji Shimizu, Yuji Yamada, Kouki Hosokawa, Shinya Ito, Takashi Kuboya, Goki Ohta, Takuma Tachi, Kazumi Tanabe, Kazuya Tsubokura, Takuo Suzuki, and Kunikazu Kobayashi:
