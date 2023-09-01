@@ -27,7 +27,7 @@ title: 業績一覧
 <br>[Hospitable Travel Agent Dialogue Robot: Team Irisapu Project Description for DRC2022](https://arxiv.org/abs/2210.09790),
 <br>Proc. of [the Dialogue Robot Competition 2022](https://sites.google.com/view/drc2022-jp), Oct. 2022.
 
-## 国内会議
+## 国内会議・シンポジウム
 1. 坪倉 和哉，久保谷 空史，舘 拓磨，小林 邦和：<br>[RoboCupサッカーおける秘匿通信のためのスペクトル拡散を用いた音声電子透かし法の提案](http://www.osaka-kyoiku.ac.jp/~challeng/SIG-Challenge-057/)，<br>人工知能学会 AIチャレンジ研究会(第57回)，pp.100-105，Nov. 2020．
 1. 山田 麻瑚，坪倉 和哉，入部 百合絵，北岡 教英：<br>マルチモーダル対話におけるユーザの振る舞いに着目した対話破綻検出，<br>映情学技報，Vol.45，No.6，ME2021-35，pp.25-28, Feb. 2021．
 1. 坪倉 和哉，鈴木 海斗，入部 百合絵, 北岡 教英：<br>[対話破綻を含むマルチモーダル対話コーパスの収集と対話破綻検出](https://jsai.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=23&item_id=10997&item_no=1), <br>人工知能学会　第91回言語・音声理解と対話処理研究会，SIG-SLUD-C003-21，pp.122-127，March 2021．
@@ -50,6 +50,8 @@ title: 業績一覧
 1. 坪倉 和哉，入部 百合絵，北岡 教英：<br>[ユーザの個人特性を考慮したマルチモーダルな対話破綻検出](https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2O5OS2a05/_article/-char/ja)，<br>2023年度人工知能学会全国大会(第37回)，2O5-OS-2a-05，June 2023．
 1. 岡田 真依，武田 拓也，坪倉 和哉，入部 百合絵，北岡 教英：<br>[音声対話システムにおけるユーザの性格特性に基づいた破綻回復処理の実装](https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2O6OS2b01/_article/-char/ja)，<br>2023年度人工知能学会全国大会(第37回)，2O6-OS-2b-01，June 2023．
 1. 西尾 優亜，坪倉 和哉，入部 百合絵，小島 秀介，佐藤 精，森下 忠：<br>牛の状態の違いによる鳴き声の特徴分析，<br>令和五年度電気・電子・情報関連学会東海支部連合大会，J6-4，Aug. 2023．
+1. 坪倉 和哉，入部 百合絵：<br>高等学校の情報科教育における自然言語処理の活用に関する検討，<br>NLP若手の会 (YANS) 第18回シンポジウム，S4-P12，Aug. 2023．
+1. 大橋 玲音, 我妻 信実, 坪倉 和哉, 石川 舞一, 伊藤 にい奈, 伊藤 芙久佳, 南 詩織, 武川 奈央, 中村 莉子, 西尾 優亜, 横山 加奈：<br>保健指導ロールプレイングにおける対話ログの収集と自動評価に向けた検討，<br>NLP若手の会 (YANS) 第18回シンポジウム，S5-P06，Aug. 2023．
 
 ## 奨学金・資金獲得等
 - 愛知県ロボット国際大会競技チーム強化支援事業（2019年度）
