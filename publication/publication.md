@@ -4,6 +4,12 @@ title: 業績一覧
 ---
 - [ホームへ戻る](../)
 
+## 論文（査読あり）
+1. Kazuya Tsubokura, Yurie Iribe & Norihide Kitaoka:
+<br>Analysis of the relationship between user response to dialog breakdown and personality traits, 
+<br>Advanced Robotics, 
+<br>DOI: 10.1080/01691864.2023.2279610, 2023.
+
 ## 国際会議（査読あり）
 1. Kazuya Tsubokura, Takashi Kuboya, Takuma Tachi, Akihisa Sanae, and Kunikazu Kobayashi:
 <br>[A digital speech watermarking method using spread spectrum for secret communication in RoboCup Soccer](https://www.osaka-kyoiku.ac.jp/~challeng/RCAP2021/symposium_overview.html),
