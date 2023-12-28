@@ -32,6 +32,10 @@ title: 業績一覧
 1. Kazuya Tsubokura, Fumiya Kishi, Kotomi Narita, Takuya Takeda, and Yurie Iribe:
 <br>[Hospitable Travel Agent Dialogue Robot: Team Irisapu Project Description for DRC2022](https://arxiv.org/abs/2210.09790),
 <br>Proc. of [the Dialogue Robot Competition 2022](https://sites.google.com/view/drc2022-jp), Oct. 2022.
+1. Reon Ohashi, Shinjitsu Agatsuma, Kazuya Tsubokura, Yurie Iribe:
+<br>[Team Irisapu Project Description for DRC2023
+](https://arxiv.org/abs/2312.13765), 
+<br>Proc. of [the Dialogue Robot Competition 2023](https://www.alps-lab.org/drc2023/index.html), Dec. 2023.
 
 ## 国内会議・シンポジウム
 1. 坪倉 和哉，久保谷 空史，舘 拓磨，小林 邦和：<br>[RoboCupサッカーおける秘匿通信のためのスペクトル拡散を用いた音声電子透かし法の提案](http://www.osaka-kyoiku.ac.jp/~challeng/SIG-Challenge-057/)，<br>人工知能学会 AIチャレンジ研究会(第57回)，pp.100-105，Nov. 2020．
