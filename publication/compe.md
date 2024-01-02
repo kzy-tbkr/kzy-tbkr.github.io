@@ -38,5 +38,8 @@ title: 出場したコンペなどの記録
   - Honorable Mention Award 受賞
 - [対話システムライブコンペティション5](https://sites.google.com/view/dslc5)，第13回対話システムシンポジウム
 
+## 2023
+- [対話ロボットコンペティション 2023](https://sites.google.com/view/dialogrobotcompe3)
+
 ---
 - [ホームへ戻る](../)
