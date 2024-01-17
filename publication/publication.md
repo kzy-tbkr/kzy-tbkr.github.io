@@ -6,8 +6,8 @@ title: 業績一覧
 
 ## 論文（査読あり）
 1. Kazuya Tsubokura, Yurie Iribe & Norihide Kitaoka:
-<br>[Analysis of the relationship between user response to dialog breakdown and personality traits](https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2279610), 
-<br>Advanced Robotics, 
+<br>[Analysis of the relationship between user response to dialog breakdown and personality traits](https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2279610),
+<br>Advanced Robotics,
 <br>DOI: 10.1080/01691864.2023.2279610, 2023.
 
 ## 国際会議（査読あり）
@@ -33,7 +33,7 @@ title: 業績一覧
 <br>[Hospitable Travel Agent Dialogue Robot: Team Irisapu Project Description for DRC2022](https://arxiv.org/abs/2210.09790),
 <br>Proc. of [the Dialogue Robot Competition 2022](https://sites.google.com/view/drc2022-jp), Oct. 2022.
 1. Reon Ohashi, Shinjitsu Agatsuma, Kazuya Tsubokura and Yurie Iribe:
-<br>[Team Irisapu Project Description for DRC2023](https://arxiv.org/abs/2312.13765), 
+<br>[Team Irisapu Project Description for DRC2023](https://arxiv.org/abs/2312.13765),
 <br>Proc. of [the Dialogue Robot Competition 2023](https://www.alps-lab.org/drc2023/index.html), Dec. 2023.
 
 ## 国内会議・シンポジウム
@@ -68,7 +68,8 @@ title: 業績一覧
 ## 奨学金・資金獲得等
 - 愛知県ロボット国際大会競技チーム強化支援事業（2019年度）
 - 愛知県立大学「はばたけ県大生」奨学制度（2019，2021年度）
-- 愛知県立大学「学生自主企画研究」（2019，2021，2022，2023年度）
+- 愛知県立大学「学生自主企画研究」（2019，2021，2022年度）（金賞受賞（2022年度））
+- 愛知県立大学「学生自主企画研究・活動」（2023年度）（金賞受賞）
 - 公益財団法人大幸財団　2022年度（第42回）学芸奨励生（2022年度）
 - 一般財団法人テレコム先端技術研究支援センター 研究奨励金（令和5~7年度）
 
