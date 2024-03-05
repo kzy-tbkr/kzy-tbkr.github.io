@@ -21,6 +21,9 @@ title: 業績一覧
 1. Kazuya Tsubokura, Yurie Iribe, and Norihide Kitaoka:
 <br>[Relationships between Gender, Personality Traits and Features of Multi-Modal Data to Response to Spoken Dialog Systems Breakdown](https://www.isca-speech.org/archive/interspeech_2023/tsubokura23_interspeech.html),
 <br>Proc. of INTERSPEECH2023, Aug. 2023.
+1. Kazuya Tsubokura, Takuya Takeda, Yurie Iribe, and Norihide Kitaoka:
+<br>Dialog Breakdown Recovery Strategies Based on User Personality,
+<br>Proc. of The 14th International Workshop on Spoken Dialogue Systems Technology (IWSDS2024), Mar. 2024.
 
 ## 国際会議（査読なし）
 1. You Aizawa, Kenta Hidaka, Nodoka Mori, Kosei Ohkusu, Kazuho Takahashi, Yoshiyuki Uemura, Mikiya Chiba, Keiji Hayashi, Kazuki Ito, Toshiki Nagami, Yuji Shimizu, Yuji Yamada, Kouki Hosokawa, Shinya Ito, Takashi Kuboya, Goki Ohta, Takuma Tachi, Kazumi Tanabe, Kazuya Tsubokura, Takuo Suzuki, and Kunikazu Kobayashi:
