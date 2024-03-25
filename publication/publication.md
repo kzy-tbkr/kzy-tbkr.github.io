@@ -7,8 +7,8 @@ title: 業績一覧
 ## 論文（査読あり）
 1. Kazuya Tsubokura, Yurie Iribe & Norihide Kitaoka:
 <br>[Analysis of the relationship between user response to dialog breakdown and personality traits](https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2279610),
-<br>Advanced Robotics,
-<br>DOI: 10.1080/01691864.2023.2279610, 2023.
+<br>Advanced Robotics, Vol.38, No.4, pp.246-255,
+<br>DOI: 10.1080/01691864.2023.2279610, 2024.
 
 ## 国際会議（査読あり）
 1. Kazuya Tsubokura, Takashi Kuboya, Takuma Tachi, Akihisa Sanae, and Kunikazu Kobayashi:
