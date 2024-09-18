@@ -1,16 +1,113 @@
-
+<!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>「情報I」プログラミング練習ページ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-  <body>
-    Shift+Enter で実行
-    <py-config>
-        packages = ["pandas", "numpy", "matplotlib", "opencv-python"]
-    </py-config>
-    <py-repl auto-generate="true"></py-repl>
-  </body>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            margin-top: 50px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .link-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .link-box {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            width: 200px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .link-box:hover {
+            transform: translateY(-10px);
+        }
+
+        .link-box a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        .link-box a:hover {
+            color: #f0a500;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>プログラミング練習ページ</h1>
+    </header>
+
+    <section>
+        <h2 class="section-title">練習用リンク</h2>
+        <div class="link-container">
+            <div class="link-box">
+                <a href="train1.html">練習 1</a>
+            </div>
+            <div class="link-box">
+                <a href="train2.html">練習 2</a>
+            </div>
+            <div class="link-box">
+                <a href="train3.html">練習 3</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">演習課題用リンク</h2>
+        <div class="link-container">
+            <div class="link-box">
+                <a href="kadai1.html">課題 1</a>
+            </div>
+            <div class="link-box">
+                <a href="kadai2.html">課題 2</a>
+            </div>
+            <div class="link-box">
+                <a href="kadai3.html">課題 3</a>
+            </div>
+            <div class="link-box">
+                <a href="kadai4.html">課題 4</a>
+            </div>
+            <div class="link-box">
+                <a href="kadai5.html">課題 5</a>
+            </div>
+        </div>
+    </section>
+
+</body>
 </html>
