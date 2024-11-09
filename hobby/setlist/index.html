@@ -103,8 +103,15 @@
     <button onclick="updateCharts()">グラフを更新</button>
 </div>
 
-<div id="heatmap"></div>
-<div id="frequencyChart"></div>
+<div class="chart" id="heatmap">
+    <div class="chart-title">ヒートマップ</div>
+</div>
+<div class="chart" id="frequencyChart">
+    <div class="chart-title">度数分布図</div>
+</div>
+
+<!--div id="heatmap"></div>
+<div id="frequencyChart"></div-->
 
 <script>
 // CSVデータを読み込み、日付範囲に応じてヒートマップと度数分布図を更新する
