@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content-width="width=device-width, initial-scale=1.0">
     <title>CSVからヒートマップと度数分布図を作成</title>
     <!-- d3.jsライブラリ -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -11,22 +11,53 @@
 </head>
 <body>
 
-<h1>hoge.csvからヒートマップと度数分布図を作成</h1>
+<h1>CSVからヒートマップと度数分布図を作成</h1>
+
+<!-- 日付範囲の選択 -->
+<label for="startDate">開始日:</label>
+<input type="date" id="startDate">
+<label for="endDate">終了日:</label>
+<input type="date" id="endDate">
+<button onclick="updateCharts()">グラフを更新</button>
+
 <div id="heatmap"></div>
 <div id="frequencyChart"></div>
 
 <script>
-// hoge.csvを読み込んでヒートマップと度数分布図を作成
+// CSVデータを読み込み、日付範囲に応じてヒートマップと度数分布図を更新する
+let allData = []; // すべてのデータを保持
+
 fetch('setlist_0912_1104.csv')
     .then(response => {
         if (!response.ok) throw new Error("CSVファイルの読み込みに失敗しました");
         return response.text();
     })
     .then(csvText => {
-        const data = d3.csvParse(csvText); // CSVデータを解析
-        processData(data); // データを処理してヒートマップと度数分布図を作成
+        allData = d3.csvParse(csvText); // CSVデータを解析して保存
+        initializeDateRange(); // 日付範囲の初期化
+        updateCharts(); // 初回表示
     })
     .catch(error => console.error("エラー:", error));
+
+// 日付範囲の選択肢を初期化
+function initializeDateRange() {
+    const dates = allData.map(row => row["date"]).filter(Boolean);
+    const minDate = dates[0];
+    const maxDate = dates[dates.length - 1];
+    
+    document.getElementById("startDate").value = minDate;
+    document.getElementById("endDate").value = maxDate;
+}
+
+// グラフを更新する関数
+function updateCharts() {
+    const startDate = document.getElementById("startDate").value;
+    const endDate = document.getElementById("endDate").value;
+
+    // 指定された日付範囲内のデータを抽出
+    const filteredData = allData.filter(row => row["date"] >= startDate && row["date"] <= endDate);
+    processData(filteredData);
+}
 
 // データを処理してヒートマップと度数分布図を作成する関数
 function processData(data) {
@@ -38,7 +69,10 @@ function processData(data) {
         const songs = Object.values(row).slice(1).filter(Boolean); // 1列目を除いて曲名を取得
 
         songs.forEach(song => {
-            songCounts[song] = (songCounts[song] || 0) + 1; // 各曲の出現回数をカウント
+            // "MC" と "_END" は度数分布に含めない
+            if (song !== "MC" && song !== "_END") {
+                songCounts[song] = (songCounts[song] || 0) + 1;
+            }
         });
 
         for (let i = 0; i < songs.length - 1; i++) {
@@ -77,21 +111,24 @@ function processData(data) {
     }];
 
     const heatmapLayout = {
-        title: 'hoge.csvから読み込んだヒートマップ',
+        title: '指定範囲内のヒートマップ',
         xaxis: { title: 'N+1 (次の曲)' },
         yaxis: { title: 'N (現在の曲)' }
     };
 
-    // 度数分布図のデータを準備
+    // 度数分布図のデータを準備 (MC と _END は含めない)
+    const filteredSongCounts = Object.keys(songCounts).filter(song => song !== "MC" && song !== "_END");
+    const filteredCounts = filteredSongCounts.map(song => songCounts[song]);
+
     const frequencyData = [{
-        x: Object.keys(songCounts),
-        y: Object.values(songCounts),
+        x: filteredSongCounts,
+        y: filteredCounts,
         type: 'bar',
         marker: { color: 'skyblue' }
     }];
 
     const frequencyLayout = {
-        title: '各曲の度数分布',
+        title: '指定範囲内の各曲の度数分布',
         xaxis: { title: '曲名', tickangle: -45 },
         yaxis: { title: '登場回数' }
     };
