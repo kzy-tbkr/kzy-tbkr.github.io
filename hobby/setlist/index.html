@@ -34,6 +34,7 @@ fetch('setlist_0912_1104.csv')
     })
     .then(csvText => {
         allData = d3.csvParse(csvText); // CSVデータを解析して保存
+        console.log("全データ:", allData); // デバッグ用
         initializeDateRange(); // 日付範囲の初期化
         updateCharts(); // 初回表示
     })
@@ -56,6 +57,7 @@ function updateCharts() {
 
     // 指定された日付範囲内のデータを抽出
     const filteredData = allData.filter(row => row["date"] >= startDate && row["date"] <= endDate);
+    console.log("フィルタリングされたデータ:", filteredData); // デバッグ用
     processData(filteredData);
 }
 
@@ -67,6 +69,7 @@ function processData(data) {
     // 各行ごとに隣接する曲のペアを抽出し、度数分布を計算
     data.forEach(row => {
         const songs = Object.values(row).slice(1).filter(Boolean); // 1列目を除いて曲名を取得
+        console.log("行の曲リスト:", songs); // デバッグ用
 
         songs.forEach(song => {
             // "MC" と "_END" は度数分布に含めない
@@ -80,6 +83,9 @@ function processData(data) {
             pairCounts[pair] = (pairCounts[pair] || 0) + 1;
         }
     });
+
+    console.log("曲のペア頻度:", pairCounts); // デバッグ用
+    console.log("各曲の度数:", songCounts); // デバッグ用
 
     // ヒートマップ用のデータを準備
     const songsSet = new Set(Object.keys(songCounts));
