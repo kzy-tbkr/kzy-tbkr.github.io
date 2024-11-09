@@ -9,7 +9,7 @@
     <!-- Plotly.jsライブラリ -->
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <style>
-        /* ページ全体のスタイル */
+        /* モダンなデザイン */
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f6f9;
@@ -28,7 +28,6 @@
             color: #2c3e50;
         }
 
-        /* フォームスタイル */
         .controls {
             margin: 20px;
             padding: 15px;
@@ -66,7 +65,6 @@
             background-color: #2980b9;
         }
 
-        /* グラフエリア */
         .chart-container {
             display: flex;
             flex-direction: column;
@@ -190,9 +188,12 @@ function processData(data) {
 
     if (values.flat().every(val => val === 0)) {
         alert("ヒートマップを生成するデータがありません");
+        Plotly.purge('heatmap');
         return;
     }
 
+    // Plotlyをリセットしてからヒートマップを描画
+    Plotly.purge('heatmap');
     const heatmapData = [{
         z: values,
         x: songs,
@@ -204,20 +205,23 @@ function processData(data) {
         textfont: { size: 12 },
         showscale: true
     }];
-
     const heatmapLayout = {
         xaxis: { title: 'N+1 (次の曲)' },
         yaxis: { title: 'N (現在の曲)' }
     };
+    Plotly.newPlot('heatmap', heatmapData, heatmapLayout);
 
     const filteredSongCounts = Object.keys(songCounts).filter(song => song !== "MC" && song !== "_END");
     const filteredCounts = filteredSongCounts.map(song => songCounts[song]);
 
     if (filteredCounts.every(val => val === 0)) {
         alert("度数分布図を生成するデータがありません");
+        Plotly.purge('frequencyChart');
         return;
     }
 
+    // Plotlyをリセットしてから度数分布図を描画
+    Plotly.purge('frequencyChart');
     const frequencyData = [{
         x: filteredSongCounts,
         y: filteredCounts,
@@ -230,7 +234,6 @@ function processData(data) {
         yaxis: { title: '登場回数' }
     };
 
-    Plotly.newPlot('heatmap', heatmapData, heatmapLayout);
     Plotly.newPlot('frequencyChart', frequencyData, frequencyLayout);
 }
 </script>
