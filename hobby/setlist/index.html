@@ -186,55 +186,53 @@ function processData(data) {
         return pairCounts[pair] || 0;
     }));
 
-    if (values.flat().every(val => val === 0)) {
+    // グラフをリセットして描画
+    Plotly.purge('heatmap');
+    Plotly.purge('frequencyChart');
+
+    // ヒートマップの描画
+    if (!values.flat().every(val => val === 0)) {
+        const heatmapData = [{
+            z: values,
+            x: songs,
+            y: songs,
+            type: 'heatmap',
+            colorscale: 'Viridis',
+            text: values.map(row => row.map(val => val.toString())),
+            texttemplate: "%{text}",
+            textfont: { size: 12 },
+            showscale: true
+        }];
+        const heatmapLayout = {
+            xaxis: { title: 'N+1 (次の曲)' },
+            yaxis: { title: 'N (現在の曲)' }
+        };
+        Plotly.newPlot('heatmap', heatmapData, heatmapLayout);
+    } else {
         alert("ヒートマップを生成するデータがありません");
-        Plotly.purge('heatmap');
-        return;
     }
 
-    // Plotlyをリセットしてからヒートマップを描画
-    Plotly.purge('heatmap');
-    const heatmapData = [{
-        z: values,
-        x: songs,
-        y: songs,
-        type: 'heatmap',
-        colorscale: 'Viridis',
-        text: values.map(row => row.map(val => val.toString())),
-        texttemplate: "%{text}",
-        textfont: { size: 12 },
-        showscale: true
-    }];
-    const heatmapLayout = {
-        xaxis: { title: 'N+1 (次の曲)' },
-        yaxis: { title: 'N (現在の曲)' }
-    };
-    Plotly.newPlot('heatmap', heatmapData, heatmapLayout);
-
+    // 度数分布図の描画
     const filteredSongCounts = Object.keys(songCounts).filter(song => song !== "MC" && song !== "_END");
     const filteredCounts = filteredSongCounts.map(song => songCounts[song]);
 
-    if (filteredCounts.every(val => val === 0)) {
+    if (filteredCounts.some(val => val > 0)) {
+        const frequencyData = [{
+            x: filteredSongCounts,
+            y: filteredCounts,
+            type: 'bar',
+            marker: { color: 'skyblue' }
+        }];
+
+        const frequencyLayout = {
+            xaxis: { title: '曲名', tickangle: -45 },
+            yaxis: { title: '登場回数' }
+        };
+
+        Plotly.newPlot('frequencyChart', frequencyData, frequencyLayout);
+    } else {
         alert("度数分布図を生成するデータがありません");
-        Plotly.purge('frequencyChart');
-        return;
     }
-
-    // Plotlyをリセットしてから度数分布図を描画
-    Plotly.purge('frequencyChart');
-    const frequencyData = [{
-        x: filteredSongCounts,
-        y: filteredCounts,
-        type: 'bar',
-        marker: { color: 'skyblue' }
-    }];
-
-    const frequencyLayout = {
-        xaxis: { title: '曲名', tickangle: -45 },
-        yaxis: { title: '登場回数' }
-    };
-
-    Plotly.newPlot('frequencyChart', frequencyData, frequencyLayout);
 }
 </script>
 
