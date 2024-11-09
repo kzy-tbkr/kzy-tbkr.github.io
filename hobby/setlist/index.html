@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSVからヒートマップを作成</title>
+    <title>CSVからヒートマップと度数分布図を作成</title>
     <!-- d3.jsライブラリ -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <!-- Plotly.jsライブラリ -->
@@ -11,11 +11,12 @@
 </head>
 <body>
 
-<h1>hoge.csvからヒートマップを作成</h1>
+<h1>hoge.csvからヒートマップと度数分布図を作成</h1>
 <div id="heatmap"></div>
+<div id="frequencyChart"></div>
 
 <script>
-// hoge.csvを読み込んでヒートマップを作成
+// hoge.csvを読み込んでヒートマップと度数分布図を作成
 fetch('setlist_0912_1104.csv')
     .then(response => {
         if (!response.ok) throw new Error("CSVファイルの読み込みに失敗しました");
@@ -23,17 +24,22 @@ fetch('setlist_0912_1104.csv')
     })
     .then(csvText => {
         const data = d3.csvParse(csvText); // CSVデータを解析
-        processData(data); // データを処理してヒートマップ用の形式に変換
+        processData(data); // データを処理してヒートマップと度数分布図を作成
     })
     .catch(error => console.error("エラー:", error));
 
-// データを処理してヒートマップを作成する関数
+// データを処理してヒートマップと度数分布図を作成する関数
 function processData(data) {
     const pairCounts = {}; // ペアの頻度を記録するオブジェクト
+    const songCounts = {}; // 各曲の登場回数を記録するオブジェクト
 
-    // 各行ごとに隣接する曲のペアを抽出
+    // 各行ごとに隣接する曲のペアを抽出し、度数分布を計算
     data.forEach(row => {
         const songs = Object.values(row).slice(1).filter(Boolean); // 1列目を除いて曲名を取得
+
+        songs.forEach(song => {
+            songCounts[song] = (songCounts[song] || 0) + 1; // 各曲の出現回数をカウント
+        });
 
         for (let i = 0; i < songs.length - 1; i++) {
             const pair = `${songs[i]}-${songs[i + 1]}`;
@@ -41,8 +47,8 @@ function processData(data) {
         }
     });
 
-    // 行名と列名（曲名）を抽出
-    const songsSet = new Set();
+    // ヒートマップ用のデータを準備
+    const songsSet = new Set(Object.keys(songCounts));
     Object.keys(pairCounts).forEach(pair => {
         const [song1, song2] = pair.split("-");
         songsSet.add(song1);
@@ -50,37 +56,51 @@ function processData(data) {
     });
     const songs = Array.from(songsSet);
 
-    // 行列形式の頻度データを作成
     const values = songs.map(song1 => songs.map(song2 => {
         const pair = `${song1}-${song2}`;
         return pairCounts[pair] || 0;
     }));
 
-    // 度数表示用のテキストデータを作成
     const textValues = values.map(row => row.map(val => val.toString()));
 
-    // ヒートマップデータを設定
+    // ヒートマップのデータを設定
     const heatmapData = [{
         z: values,
         x: songs,
         y: songs,
         type: 'heatmap',
         colorscale: 'Viridis',
-        text: textValues,  // 各セルに表示するテキスト
-        texttemplate: "%{text}",  // セル内に度数を表示
-        textfont: { size: 12 },  // テキストサイズ
+        text: textValues,
+        texttemplate: "%{text}",
+        textfont: { size: 12 },
         showscale: true
     }];
 
-    // ヒートマップのレイアウト
-    const layout = {
+    const heatmapLayout = {
         title: 'hoge.csvから読み込んだヒートマップ',
         xaxis: { title: 'N+1 (次の曲)' },
         yaxis: { title: 'N (現在の曲)' }
     };
 
+    // 度数分布図のデータを準備
+    const frequencyData = [{
+        x: Object.keys(songCounts),
+        y: Object.values(songCounts),
+        type: 'bar',
+        marker: { color: 'skyblue' }
+    }];
+
+    const frequencyLayout = {
+        title: '各曲の度数分布',
+        xaxis: { title: '曲名', tickangle: -45 },
+        yaxis: { title: '登場回数' }
+    };
+
     // Plotlyでヒートマップを描画
-    Plotly.newPlot('heatmap', heatmapData, layout);
+    Plotly.newPlot('heatmap', heatmapData, heatmapLayout);
+
+    // Plotlyで度数分布図を描画
+    Plotly.newPlot('frequencyChart', frequencyData, frequencyLayout);
 }
 </script>
 
