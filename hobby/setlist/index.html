@@ -27,13 +27,17 @@
 // CSVデータを読み込み、日付範囲に応じてヒートマップと度数分布図を更新する
 let allData = []; // すべてのデータを保持
 
-fetch('setlist_0912_1104.csv')
+fetch('hoge.csv')
     .then(response => {
         if (!response.ok) throw new Error("CSVファイルの読み込みに失敗しました");
         return response.text();
     })
     .then(csvText => {
-        allData = d3.csvParse(csvText); // CSVデータを解析して保存
+        allData = d3.csvParse(csvText, d => {
+            // 日付を "yyyy-mm-dd" 形式に変換して保持
+            d.date = d.date.replace(/\//g, "-");  // yyyy/mm/dd を yyyy-mm-dd に変換
+            return d;
+        });
         console.log("全データ:", allData); // デバッグ用
         initializeDateRange(); // 日付範囲の初期化
         updateCharts(); // 初回表示
@@ -45,9 +49,6 @@ function initializeDateRange() {
     const dates = allData.map(row => row["date"]).filter(Boolean);
     const minDate = dates[0];
     const maxDate = dates[dates.length - 1];
-
-    console.log(minDate); // デバッグ用
-    console.log(maxDate); // デバッグ用
     
     document.getElementById("startDate").value = minDate;
     document.getElementById("endDate").value = maxDate;
