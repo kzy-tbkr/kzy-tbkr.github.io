@@ -8,30 +8,20 @@
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <!-- Plotly.jsライブラリ -->
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <style>
-        /* CSS omitted for brevity */
-    </style>
 </head>
 <body>
 
 <h1>パルクラ楽曲のヒートマップと度数分布図</h1>
 
-<div class="controls">
-    <label for="startDate">開始日:</label>
-    <input type="date" id="startDate">
-    <label for="endDate">終了日:</label>
-    <input type="date" id="endDate">
-    <button onclick="updateCharts()">グラフを更新</button>
-</div>
+<!-- 日付範囲の選択 -->
+<label for="startDate">開始日:</label>
+<input type="date" id="startDate">
+<label for="endDate">終了日:</label>
+<input type="date" id="endDate">
+<button onclick="updateCharts()">グラフを更新</button>
 
-<div class="chart-container">
-    <div class="chart" id="heatmap">
-        <div class="chart-title">ヒートマップ</div>
-    </div>
-    <div class="chart" id="frequencyChart">
-        <div class="chart-title">度数分布図</div>
-    </div>
-</div>
+<div id="heatmap"></div>
+<div id="frequencyChart"></div>
 
 <script>
 // CSVデータを読み込み、日付範囲に応じてヒートマップと度数分布図を更新する
@@ -44,9 +34,11 @@ fetch('setlist_0912_1104.csv')
     })
     .then(csvText => {
         allData = d3.csvParse(csvText, d => {
+            // 日付を "yyyy-mm-dd" 形式に変換して保持
             d.date = d.date.replace(/\//g, "-");  // yyyy/mm/dd を yyyy-mm-dd に変換
             return d;
         });
+        console.log("全データ:", allData); // デバッグ用
         initializeDateRange(); // 日付範囲の初期化
         updateCharts(); // 初回表示
     })
@@ -69,32 +61,37 @@ function updateCharts() {
 
     // 指定された日付範囲内のデータを抽出
     const filteredData = allData.filter(row => row["date"] >= startDate && row["date"] <= endDate);
-    if (filteredData.length === 0) {
-        console.error("エラー: 選択された日付範囲にデータがありません");
-        alert("選択された日付範囲にデータがありません");
-        return;
-    }
+    console.log("フィルタリングされたデータ:", filteredData); // デバッグ用
     processData(filteredData);
 }
 
 // データを処理してヒートマップと度数分布図を作成する関数
 function processData(data) {
-    const pairCounts = {};
-    const songCounts = {};
+    const pairCounts = {}; // ペアの頻度を記録するオブジェクト
+    const songCounts = {}; // 各曲の登場回数を記録するオブジェクト
 
+    // 各行ごとに隣接する曲のペアを抽出し、度数分布を計算
     data.forEach(row => {
-        const songs = Object.values(row).slice(1).filter(Boolean);
+        const songs = Object.values(row).slice(1).filter(Boolean); // 1列目を除いて曲名を取得
+        console.log("行の曲リスト:", songs); // デバッグ用
+
         songs.forEach(song => {
+            // "MC" と "_END" は度数分布に含めない
             if (song !== "MC" && song !== "_END") {
                 songCounts[song] = (songCounts[song] || 0) + 1;
             }
         });
+
         for (let i = 0; i < songs.length - 1; i++) {
             const pair = `${songs[i]}-${songs[i + 1]}`;
             pairCounts[pair] = (pairCounts[pair] || 0) + 1;
         }
     });
 
+    console.log("曲のペア頻度:", pairCounts); // デバッグ用
+    console.log("各曲の度数:", songCounts); // デバッグ用
+
+    // ヒートマップ用のデータを準備
     const songsSet = new Set(Object.keys(songCounts));
     Object.keys(pairCounts).forEach(pair => {
         const [song1, song2] = pair.split("-");
@@ -108,43 +105,30 @@ function processData(data) {
         return pairCounts[pair] || 0;
     }));
 
-    // デバッグ情報
-    console.log("ヒートマップの値:", values);
+    const textValues = values.map(row => row.map(val => val.toString()));
 
-    if (values.flat().length === 0) {
-        console.error("エラー: ヒートマップデータが空です");
-        alert("ヒートマップを生成するためのデータがありません");
-        return;
-    }
-
+    // ヒートマップのデータを設定
     const heatmapData = [{
         z: values,
         x: songs,
         y: songs,
         type: 'heatmap',
         colorscale: 'Viridis',
-        text: values.map(row => row.map(val => val.toString())),
+        text: textValues,
         texttemplate: "%{text}",
         textfont: { size: 12 },
         showscale: true
     }];
 
     const heatmapLayout = {
+        title: '指定範囲内のヒートマップ',
         xaxis: { title: 'N+1 (次の曲)' },
         yaxis: { title: 'N (現在の曲)' }
     };
 
+    // 度数分布図のデータを準備 (MC と _END は含めない)
     const filteredSongCounts = Object.keys(songCounts).filter(song => song !== "MC" && song !== "_END");
     const filteredCounts = filteredSongCounts.map(song => songCounts[song]);
-
-    console.log("度数分布図の曲名:", filteredSongCounts);
-    console.log("度数分布図のカウント:", filteredCounts);
-
-    if (filteredCounts.length === 0) {
-        console.error("エラー: 度数分布図データが空です");
-        alert("度数分布図を生成するためのデータがありません");
-        return;
-    }
 
     const frequencyData = [{
         x: filteredSongCounts,
@@ -154,11 +138,15 @@ function processData(data) {
     }];
 
     const frequencyLayout = {
+        title: '指定範囲内の各曲の度数分布',
         xaxis: { title: '曲名', tickangle: -45 },
         yaxis: { title: '登場回数' }
     };
 
+    // Plotlyでヒートマップを描画
     Plotly.newPlot('heatmap', heatmapData, heatmapLayout);
+
+    // Plotlyで度数分布図を描画
     Plotly.newPlot('frequencyChart', frequencyData, frequencyLayout);
 }
 </script>
