@@ -45,6 +45,9 @@ function initializeDateRange() {
     const dates = allData.map(row => row["date"]).filter(Boolean);
     const minDate = dates[0];
     const maxDate = dates[dates.length - 1];
+
+    console.log(minDate); // デバッグ用
+    console.log(maxDate); // デバッグ用
     
     document.getElementById("startDate").value = minDate;
     document.getElementById("endDate").value = maxDate;
