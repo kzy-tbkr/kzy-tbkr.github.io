@@ -24,6 +24,9 @@ title: 業績一覧
 1. Kazuya Tsubokura, Takuya Takeda, Yurie Iribe, and Norihide Kitaoka:
 <br>Dialog Breakdown Recovery Strategies Based on User Personality,
 <br>Proc. of The 14th International Workshop on Spoken Dialogue Systems Technology (IWSDS2024), Mar. 2024.
+1. Shinjitsu Agatsuma, Reon Ohashi, Kazuya Tsubokura, Yua Nishio, Mai Ishikawa, Niina Ito, Fukuka Ito, Shiori Minami,Nao Takegawa, Riko Nakamura, Kana Yokoyama:
+<br>Building a Role-Play Interactive System using LLM for Health Guidance Education,
+<br>Proc. of 2024 Joint 13th International Conference on Soft Computing and Intelligent Systems and 25th International Symposium on Advanced Intelligent Systems (SCIS&ISIS), Nov. 2024.
 
 ## 国際会議（査読なし）
 1. You Aizawa, Kenta Hidaka, Nodoka Mori, Kosei Ohkusu, Kazuho Takahashi, Yoshiyuki Uemura, Mikiya Chiba, Keiji Hayashi, Kazuki Ito, Toshiki Nagami, Yuji Shimizu, Yuji Yamada, Kouki Hosokawa, Shinya Ito, Takashi Kuboya, Goki Ohta, Takuma Tachi, Kazumi Tanabe, Kazuya Tsubokura, Takuo Suzuki, and Kunikazu Kobayashi:
