@@ -9,6 +9,10 @@ title: 業績一覧
 <br>[Analysis of the relationship between user response to dialog breakdown and personality traits](https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2279610),
 <br>Advanced Robotics, Vol.38, No.4, pp.246-255,
 <br>DOI: 10.1080/01691864.2023.2279610, 2024.
+1. 西尾 優亜, 坪倉 和哉, 小島 秀介, 佐藤 精, 森下 忠, 入部 百合絵：
+<br>[鳴き声の個体内変動を考慮した牛の個体照合](https://www.jstage.jst.go.jp/article/ieejeiss/144/12/144_1153/_article/-char/ja)，
+<br>電気学会論文誌Ｃ（電子・情報・システム部門誌），Vol.144，No.12，pp.1153-1161，
+<br>DOI: 10.1541/ieejeiss.144.1153，2024．
 
 ## 国際会議（査読あり）
 1. Kazuya Tsubokura, Takashi Kuboya, Takuma Tachi, Akihisa Sanae, and Kunikazu Kobayashi:
