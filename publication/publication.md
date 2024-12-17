@@ -7,12 +7,16 @@ title: 業績一覧
 ## 論文（査読あり）
 1. Kazuya Tsubokura, Yurie Iribe & Norihide Kitaoka:
 <br>[Analysis of the relationship between user response to dialog breakdown and personality traits](https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2279610),
-<br>Advanced Robotics, Vol.38, No.4, pp.246-255,
-<br>DOI: 10.1080/01691864.2023.2279610, 2024.
+<br>Advanced Robotics, Vol.38, No.4, pp.246-255, 2024.
+<br>DOI: 10.1080/01691864.2023.2279610
 1. 西尾 優亜, 坪倉 和哉, 小島 秀介, 佐藤 精, 森下 忠, 入部 百合絵：
 <br>[鳴き声の個体内変動を考慮した牛の個体照合](https://www.jstage.jst.go.jp/article/ieejeiss/144/12/144_1153/_article/-char/ja)，
-<br>電気学会論文誌Ｃ（電子・情報・システム部門誌），Vol.144，No.12，pp.1153-1161，
-<br>DOI: 10.1541/ieejeiss.144.1153，2024．
+<br>電気学会論文誌Ｃ（電子・情報・システム部門誌），Vol.144，No.12，pp.1153-1161，2024．
+<br>DOI: 10.1541/ieejeiss.144.1153
+1. 坪倉 和哉, 入部 百合絵, 北岡 教英：
+<br>[音声対話システムにおける対話破綻時のユーザ反応と個人特性との関連](https://search.ieice.org/bin/summary_advpub.php?id=2024PDP0035&category=D&lang=J),
+<br>電子情報通信学会論文誌D，Vol.J108-D，No.04，Apr.，2025．
+<br>DOI: 10.14923/transinfj.2024PDP0035
 
 ## 国際会議（査読あり）
 1. Kazuya Tsubokura, Takashi Kuboya, Takuma Tachi, Akihisa Sanae, and Kunikazu Kobayashi:
