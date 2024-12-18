@@ -33,7 +33,7 @@ title: 業績一覧
 <br>Dialog Breakdown Recovery Strategies Based on User Personality,
 <br>Proc. of The 14th International Workshop on Spoken Dialogue Systems Technology (IWSDS2024), Mar. 2024.
 1. Shinjitsu Agatsuma, Reon Ohashi, Kazuya Tsubokura, Yua Nishio, Mai Ishikawa, Niina Ito, Fukuka Ito, Shiori Minami,Nao Takegawa, Riko Nakamura, Kana Yokoyama:
-<br>Building a Role-Play Interactive System using LLM for Health Guidance Education,
+<br>[Building a Role-Play Interactive System using LLM for Health Guidance Education](https://ieeexplore.ieee.org/document/10759994),
 <br>Proc. of 2024 Joint 13th International Conference on Soft Computing and Intelligent Systems and 25th International Symposium on Advanced Intelligent Systems (SCIS&ISIS), Nov. 2024.
 
 ## 国際会議（査読なし）
