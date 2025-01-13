@@ -7,12 +7,16 @@ title: 業績一覧
 ## 論文（査読あり）
 1. Kazuya Tsubokura, Yurie Iribe & Norihide Kitaoka:
 <br>[Analysis of the relationship between user response to dialog breakdown and personality traits](https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2279610),
-<br>Advanced Robotics, Vol.38, No.4, pp.246-255,
-<br>DOI: 10.1080/01691864.2023.2279610, 2024.
+<br>Advanced Robotics, Vol.38, No.4, pp.246-255, 2024.
+<br>DOI: 10.1080/01691864.2023.2279610
 1. 西尾 優亜, 坪倉 和哉, 小島 秀介, 佐藤 精, 森下 忠, 入部 百合絵：
 <br>[鳴き声の個体内変動を考慮した牛の個体照合](https://www.jstage.jst.go.jp/article/ieejeiss/144/12/144_1153/_article/-char/ja)，
-<br>電気学会論文誌Ｃ（電子・情報・システム部門誌），Vol.144，No.12，pp.1153-1161，
-<br>DOI: 10.1541/ieejeiss.144.1153，2024．
+<br>電気学会論文誌Ｃ（電子・情報・システム部門誌），Vol.144，No.12，pp.1153-1161，2024．
+<br>DOI: 10.1541/ieejeiss.144.1153
+1. 坪倉 和哉, 入部 百合絵, 北岡 教英：
+<br>[音声対話システムにおける対話破綻時のユーザ反応と個人特性との関連](https://search.ieice.org/bin/summary_advpub.php?id=2024PDP0035&category=D&lang=J),
+<br>電子情報通信学会論文誌D，Vol.J108-D，No.04，Apr.，2025．
+<br>DOI: 10.14923/transinfj.2024PDP0035
 
 ## 国際会議（査読あり）
 1. Kazuya Tsubokura, Takashi Kuboya, Takuma Tachi, Akihisa Sanae, and Kunikazu Kobayashi:
@@ -29,7 +33,7 @@ title: 業績一覧
 <br>Dialog Breakdown Recovery Strategies Based on User Personality,
 <br>Proc. of The 14th International Workshop on Spoken Dialogue Systems Technology (IWSDS2024), Mar. 2024.
 1. Shinjitsu Agatsuma, Reon Ohashi, Kazuya Tsubokura, Yua Nishio, Mai Ishikawa, Niina Ito, Fukuka Ito, Shiori Minami,Nao Takegawa, Riko Nakamura, Kana Yokoyama:
-<br>Building a Role-Play Interactive System using LLM for Health Guidance Education,
+<br>[Building a Role-Play Interactive System using LLM for Health Guidance Education](https://ieeexplore.ieee.org/document/10759994),
 <br>Proc. of 2024 Joint 13th International Conference on Soft Computing and Intelligent Systems and 25th International Symposium on Advanced Intelligent Systems (SCIS&ISIS), Nov. 2024.
 
 ## 国際会議（査読なし）
@@ -81,6 +85,8 @@ title: 業績一覧
 1. 鈴木 丈慈，坪井 辰馬，大橋 玲音，加藤 勇護，櫻井 響，坪倉 和哉，小林 邦和：<br>連想ボードゲーム・ピクチャーズにおける抽象化・具体化能力と性格特性に関する研究，<br>2024年度人工知能学会全国大会(第38回)，4Xin2-64，May 2024．
 1. 山田 竜彰，坪倉 和哉，入部 百合絵，北岡 教英：<br>LLMを用いた対話破綻に対する修復文生成の検討，<br>令和六年度電気・電子・情報関連学会東海支部連合大会，G1-8，Aug. 2024．
 1. 大橋 玲音，我妻 信実，中山 怜士，野村 光，石川 舞一，伊藤 にい奈，伊藤 芙久佳，南 詩織，金田 修香，檜物 春佳，中村 莉子，西尾 優亜，鈴木 丈慈，坪倉 和哉，横山 加奈：<br>LLMを用いた睡眠カウンセリング対話システムの検討，<br>NLP若手の会 (YANS) 第19回シンポジウム，S4-P07，Sep. 2024．
+1. 野村 光，中山 怜士，我妻 信実，大橋 玲音，西尾 優亜，石川 舞一，伊藤 にい奈，伊藤 芙久佳，南 詩織，武川 奈央，中村 莉子，坪倉 和哉，横山 加奈:<br>健康相談のための対話エージェントの見た目が印象評価に与える影響，<br>WiNF2024，P1B-11，Dec. 2024.
+1. 中山 怜士，野村 光，大橋 玲音，我妻 信実，鈴木 丈慈，石川 舞一，伊藤 にい奈，伊藤 芙久佳，南 詩織，金田 修香，中村 莉子，檜物 春佳，西尾 優亜，坪倉 和哉，横山 加奈:<br>睡眠カウンセリングのための対話システム，<br>WiNF2024，P1B-29，Dec. 2024．
 
 ## 奨学金・資金獲得等
 - 愛知県ロボット国際大会競技チーム強化支援事業（2019年度）
@@ -119,9 +125,11 @@ title: 業績一覧
 
 ## 取材
 - 【ラジオ】2022.07.21 20:30-21:00
-  - FM愛知「中電シーティーアイ Welcome Generation」
+  - FM AICHI「中電シーティーアイ Welcome Generation」
 - 【新聞】2024.04.06
   - 読売新聞　朝刊「キャンパス発　研究室めぐり：保健指導　AIと実践練習」
+- 【ラジオ】2024.12.19 20:30-21:00
+  - FM AICHI「中電シーティーアイ Welcome Generation」
 
 ---
 - [ホームへ戻る](../)
