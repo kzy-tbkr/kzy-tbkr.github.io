@@ -41,5 +41,9 @@ title: 出場したコンペなどの記録
 ## 2023
 - [対話ロボットコンペティション 2023](https://sites.google.com/view/dialogrobotcompe3)
 
+## 2025
+- [サッカー軌道予測コンペティション](https://sites.google.com/view/stp-challenge/)
+  - 優秀賞 受賞
+
 ---
 - [ホームへ戻る](../)
