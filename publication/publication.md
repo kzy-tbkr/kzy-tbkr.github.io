@@ -14,8 +14,8 @@ title: 業績一覧
 <br>電気学会論文誌Ｃ（電子・情報・システム部門誌），Vol.144，No.12，pp.1153-1161，2024．
 <br>DOI: 10.1541/ieejeiss.144.1153
 1. 坪倉 和哉, 入部 百合絵, 北岡 教英：
-<br>[音声対話システムにおける対話破綻時のユーザ反応と個人特性との関連](https://search.ieice.org/bin/summary_advpub.php?id=2024PDP0035&category=D&lang=J),
-<br>電子情報通信学会論文誌D，Vol.J108-D，No.04，Apr.，2025．
+<br>[音声対話システムにおける対話破綻時のユーザ反応と個人特性との関連](https://search.ieice.org/bin/summary.php?id=j108-d_4_182&category=D&year=2025&lang=J&abst=),
+<br>電子情報通信学会論文誌D，Vol.J108-D，No.04，pp.182-191，Apr.，2025．
 <br>DOI: 10.14923/transinfj.2024PDP0035
 
 ## 国際会議（査読あり）
