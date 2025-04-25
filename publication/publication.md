@@ -92,6 +92,8 @@ title: 業績一覧
 1. 桑山 芳明，坪倉 和哉，入部 百合絵，横井 克典，中村 昭範，北岡 教英，勝野 雅央：<br>[自己教師あり学習を用いた自由会話音声からの早期アルツハイマー病の予測](https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/P3-15.pdf)，<br>言語処理学会第31回年次大会(NLP2025)，P3-15，March 2025．
 1. 山田 竜彰，坪倉 和哉，入部 百合絵，北岡 教英：<br>[対話システムにおける個人特性を考慮した破綻度合い推定](https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/P10-21.pdf)，<br>言語処理学会第31回年次大会(NLP2025)，P10-21，March 2025．
 1. 西尾 優亜，坪倉 和哉，小島 秀介，入部 百合絵：<br>大規模事前学習モデルを用いた牛の鳴き声の識別，<br>日本音響学会第153回(2025年春季)研究発表会，3-P-17，March 2025．
+1. 大橋 玲音，鈴木 丈慈，坪倉 和哉，小林 邦和：<br>[RoboCup Soccer Simulation 2Dを対象とした双方向GRUによる選手とボールの軌道予測](https://www.osaka-kyoiku.ac.jp/~challeng/SIG-Challenge-067/)，<br>人工知能学会 AIチャレンジ研究会(第67回)，pp.1-6，May 2025．
+1. 鈴木 丈慈，坪倉 和哉，大橋 玲音，小林 邦和：<br>[大規模マルチモーダルモデルを用いたRoboCupサッカー競技のハイライト動画の自動生成](https://www.osaka-kyoiku.ac.jp/~challeng/SIG-Challenge-067/)，<br>人工知能学会 AIチャレンジ研究会(第67回)，pp.7-12，May 2025．
 
 ## 奨学金・資金獲得等
 - 愛知県ロボット国際大会競技チーム強化支援事業（2019年度）
