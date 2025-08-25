@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>画像ごとに手動で閾値を決めるデモ（A/B/C）</title>
+<style>
+  :root{--fg:#0f172a;--mut:#64748b;--line:#e5e7eb;--card:#ffffff;--accent:#2563eb}
+  body{margin:16px;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;background:#f6f8fb;color:var(--fg)}
+  h1{font-size:18px;margin:0 0 12px}
+  .hint{font-size:12px;color:var(--mut);margin:4px 0 14px}
+  .grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
+  @media (max-width:1200px){.grid{grid-template-columns:1fr 1fr}}
+  @media (max-width:780px){.grid{grid-template-columns:1fr}}
+  .card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px}
+  .card h2{margin:0 0 8px;font-size:16px}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  canvas{width:100%;height:auto;border-radius:8px;background:#ffffff}
+  .controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:8px}
+  .controls input[type=range]{width:220px}
+  .badge{display:inline-block;background:#eef2ff;color:#334155;border:1px solid #cbd5e1;border-radius:999px;padding:2px 8px;font-size:12px}
+  .mini{font-size:12px;color:#64748b;margin-top:6px}
+  .legend{font-size:12px;color:var(--mut);margin-top:6px}
+  .dot{width:12px;height:2px;display:inline-block;background:#ef4444;margin-right:6px}
+</style>
+</head>
+<body>
+  <h1>画像ごとに最適な閾値が異なることを示すデモ（A/B/C）</h1>
+  <div class="hint">img/A.jpg, img/B.jpg, img/C.jpg を読み込みます。各カードのスライダーで「固定閾値」を手動調整できます。ヒストグラムの赤線＝現在の閾値。</div>
+
+  <div class="grid" id="grid"></div>
+
+<script>
+function clamp(n, lo, hi){ return Math.max(lo, Math.min(hi, n)); }
+function fitSize(w,h,max){ const s=Math.min(1, max/Math.max(w,h)); return {w:Math.round(w*s), h:Math.round(h*s)}; }
+function gray709(r,g,b){ return 0.2126*r + 0.7152*g + 0.0722*b; }
+
+async function createPanel(root, title, src){
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.innerHTML = `
+    <h2>${title} <span class="badge">${src}</span></h2>
+    <div class="row">
+      <div>
+        <div class="mini">グレースケール</div>
+        <canvas class="gray"></canvas>
+      </div>
+      <div>
+        <div class="mini">固定閾値の2値化</div>
+        <canvas class="bin"></canvas>
+      </div>
+    </div>
+    <div class="mini" style="margin-top:8px;">ヒストグラム（0–255）</div>
+    <canvas class="hist" height="120"></canvas>
+    <div class="legend"><i class="dot"></i>現在の閾値</div>
+    <div class="controls">
+      <label>閾値:<strong class="thrV">128</strong></label>
+      <input type="range" class="thr" min="0" max="255" step="1" value="128" />
+      <span class="mini dim"></span>
+    </div>
+  `;
+  root.appendChild(card);
+
+  const grayC = card.querySelector('.gray');
+  const binC  = card.querySelector('.bin');
+  const histC = card.querySelector('.hist');
+  const thrEl = card.querySelector('.thr');
+  const thrV  = card.querySelector('.thrV');
+  const dim   = card.querySelector('.dim');
+
+  const gctx = grayC.getContext('2d');
+  const bctx = binC.getContext('2d');
+  const hctx = histC.getContext('2d');
+
+  let bmp;
+  try{
+    const img = new Image();
+    img.src = src;
+    await img.decode();
+    bmp = (self.createImageBitmap) ? await createImageBitmap(img) : img;
+  }catch(e){
+    dim.textContent = '読み込みエラー: ' + e.message;
+    return;
+  }
+
+  const maxSide = 900;
+  const t = fitSize(bmp.width, bmp.height, maxSide);
+  const W = t.w, H = t.h;
+  const off = (typeof OffscreenCanvas !== 'undefined')
+    ? new OffscreenCanvas(W,H)
+    : (()=>{ const c=document.createElement('canvas'); c.width=W; c.height=H; return c;})();
+  const octx = off.getContext('2d');
+  octx.drawImage(bmp, 0,0, W,H);
+  const rgba = octx.getImageData(0,0,W,H);
+
+  const gray = new Uint8ClampedArray(W*H);
+  const hist = new Uint32Array(256);
+  for(let i=0,j=0;i<rgba.data.length;i+=4,j++){
+    const r=rgba.data[i], g=rgba.data[i+1], b=rgba.data[i+2];
+    const v = clamp(Math.round(gray709(r,g,b)),0,255);
+    gray[j]=v; hist[v]++; 
+  }
+
+  function drawGray(){
+    const img = gctx.createImageData(W,H);
+    for(let i=0,j=0;j<gray.length;j++,i+=4){ const v=gray[j]; img.data[i]=img.data[i+1]=img.data[i+2]=v; img.data[i+3]=255; }
+    grayC.width=W; grayC.height=H; gctx.putImageData(img,0,0);
+  }
+  function drawBin(th){
+    const img = bctx.createImageData(W,H);
+    for(let i=0,j=0;j<gray.length;j++,i+=4){
+      const bw = (gray[j] >= th) ? 255 : 0;
+      img.data[i]=img.data[i+1]=img.data[i+2]=bw; img.data[i+3]=255;
+    }
+    binC.width=W; binC.height=H; bctx.putImageData(img,0,0);
+  }
+  function drawHist(th){
+    const w = histC.width = histC.clientWidth || 600;
+    const h = histC.height;
+    const m = {l:44,r:8,t:8,b:22};
+    const pw = w - m.l - m.r, ph = h - m.t - m.b;
+    const barW = Math.max(1, Math.floor(pw/256));
+    let max=0; for(let i=0;i<256;i++) if(hist[i]>max) max=hist[i]; if(max===0) max=1;
+
+    hctx.clearRect(0,0,w,h);
+    hctx.fillStyle='#fff'; hctx.fillRect(0,0,w,h);
+    hctx.save(); hctx.translate(m.l,m.t);
+
+    // bars
+    for(let x=0;x<256;x++){
+      const v = hist[x]/max; const bh = Math.max(1, Math.round(v*ph));
+      hctx.fillStyle='#eef2f7'; hctx.fillRect(Math.floor(x*barW), 0, Math.ceil(barW), ph);
+      hctx.fillStyle='#2563eb22'; hctx.fillRect(Math.floor(x*barW), ph-bh, Math.ceil(barW), bh);
+    }
+
+    // current threshold (red)
+    const tx = Math.floor(th*barW + barW/2);
+    hctx.strokeStyle='#ef4444'; hctx.lineWidth=2;
+    hctx.beginPath(); hctx.moveTo(tx,0); hctx.lineTo(tx,ph); hctx.stroke();
+
+    // frame & ticks
+    hctx.strokeStyle='#94a3b8'; hctx.lineWidth=1; hctx.strokeRect(0,0,pw,ph);
+    hctx.fillStyle='#334155'; hctx.font='11px system-ui';
+    for(let xv=0;xv<=255;xv+=32){ const xx=Math.floor(xv*barW+barW/2); hctx.fillRect(xx,ph,1,4); hctx.fillText(String(xv), xx-8, ph+14); }
+    hctx.restore();
+    hctx.strokeStyle='#94a3b8';
+    hctx.beginPath();
+    hctx.moveTo(m.l, h - m.b); hctx.lineTo(w - m.r, h - m.b);
+    hctx.moveTo(m.l, m.t);     hctx.lineTo(m.l, h - m.b);
+    hctx.stroke();
+  }
+
+  drawGray();
+  dim.textContent = `元:${bmp.width}×${bmp.height} → 表示:${W}×${H}`;
+  thrV.textContent = thrEl.value;
+  drawBin(+thrEl.value);
+  drawHist(+thrEl.value);
+
+  thrEl.addEventListener('input', ()=>{
+    const t = +thrEl.value; thrV.textContent = t; drawBin(t); drawHist(t);
+  });
+
+  histC.addEventListener('click', (e)=>{
+    const rect = histC.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const w = histC.clientWidth || histC.width;
+    const m = {l:44,r:8};
+    const pw = w - m.l - m.r;
+    const barW = Math.max(1, Math.floor(pw/256));
+    const px = x - m.l;
+    if(px<0 || px>=pw) return;
+    const bin = clamp(Math.floor(px / barW), 0, 255);
+    thrEl.value = bin; thrV.textContent = bin; drawBin(bin); drawHist(bin);
+  });
+}
+
+(async function init(){
+  const grid = document.getElementById('grid');
+  await createPanel(grid, '画像A', 'img/A.jpg');
+  await createPanel(grid, '画像B', 'img/B.jpg');
+  await createPanel(grid, '画像C', 'img/C.jpg');
+})();
+</script>
+</body>
+</html>
