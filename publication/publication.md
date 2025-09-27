@@ -35,7 +35,7 @@ title: 業績一覧
 1. Shinjitsu Agatsuma, Reon Ohashi, Kazuya Tsubokura, Yua Nishio, Mai Ishikawa, Niina Ito, Fukuka Ito, Shiori Minami,Nao Takegawa, Riko Nakamura, Kana Yokoyama:
 <br>[Building a Role-Play Interactive System using LLM for Health Guidance Education](https://ieeexplore.ieee.org/document/10759994),
 <br>Proc. of 2024 Joint 13th International Conference on Soft Computing and Intelligent Systems and 25th International Symposium on Advanced Intelligent Systems (SCIS&ISIS), Nov. 2024.
-1.Joji Suzuki, Kazuya Tsubokura, Reon Ohashi and Kunikazu Kobayashi:
+1. Joji Suzuki, Kazuya Tsubokura, Reon Ohashi and Kunikazu Kobayashi:
 <br>Automatic Generation of RoboCup Soccer Highlight Videos Using a Large Multimodal Model,
 <br>Proc. of 2025 IEEE 14th Global Conference on Consumer Electronics (GCCE 2025), Sep. 2025.
 1. Reon Ohashi, Joji Suzuki, Kazuya Tsubokura and Kunikazu Kobayashi:
