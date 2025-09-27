@@ -25,7 +25,7 @@ title: 業績一覧
    - __<span style="color: red; ">ロボカップ研究賞 受賞</span>__
 1. Kazuya Tsubokura, Yurie Iribe, and Norihide Kitaoka:
 <br>[Dialog Breakdown Detection Using Multimodal Features for Non-Task-Oriented Dialog Systems](https://ieeexplore.ieee.org/document/10014052),
-<br>Proc. of IEEE GCCE 2022, Oct. 2022.
+<br>Proc. of 2022 IEEE 11th Global Conference on Consumer Electronics (GCCE 2022), Oct. 2022.
 1. Kazuya Tsubokura, Yurie Iribe, and Norihide Kitaoka:
 <br>[Relationships between Gender, Personality Traits and Features of Multi-Modal Data to Response to Spoken Dialog Systems Breakdown](https://www.isca-speech.org/archive/interspeech_2023/tsubokura23_interspeech.html),
 <br>Proc. of INTERSPEECH2023, Aug. 2023.
@@ -35,6 +35,12 @@ title: 業績一覧
 1. Shinjitsu Agatsuma, Reon Ohashi, Kazuya Tsubokura, Yua Nishio, Mai Ishikawa, Niina Ito, Fukuka Ito, Shiori Minami,Nao Takegawa, Riko Nakamura, Kana Yokoyama:
 <br>[Building a Role-Play Interactive System using LLM for Health Guidance Education](https://ieeexplore.ieee.org/document/10759994),
 <br>Proc. of 2024 Joint 13th International Conference on Soft Computing and Intelligent Systems and 25th International Symposium on Advanced Intelligent Systems (SCIS&ISIS), Nov. 2024.
+1.Joji Suzuki, Kazuya Tsubokura, Reon Ohashi and Kunikazu Kobayashi:
+<br>Automatic Generation of RoboCup Soccer Highlight Videos Using a Large Multimodal Model,
+<br>Proc. of 2025 IEEE 14th Global Conference on Consumer Electronics (GCCE 2025), Sep. 2025.
+1. Reon Ohashi, Joji Suzuki, Kazuya Tsubokura and Kunikazu Kobayashi:
+<br>Trajectory Prediction of Players and the Ball Using a Bidirectional GRU for RoboCup Soccer Simulation 2D,
+<br>Proc. of 2025 IEEE 14th Global Conference on Consumer Electronics (GCCE 2025), Sep. 2025.
 
 ## 国際会議（査読なし）
 1. You Aizawa, Kenta Hidaka, Nodoka Mori, Kosei Ohkusu, Kazuho Takahashi, Yoshiyuki Uemura, Mikiya Chiba, Keiji Hayashi, Kazuki Ito, Toshiki Nagami, Yuji Shimizu, Yuji Yamada, Kouki Hosokawa, Shinya Ito, Takashi Kuboya, Goki Ohta, Takuma Tachi, Kazumi Tanabe, Kazuya Tsubokura, Takuo Suzuki, and Kunikazu Kobayashi:
