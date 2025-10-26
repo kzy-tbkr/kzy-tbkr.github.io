@@ -41,6 +41,9 @@ title: 業績一覧
 1. Reon Ohashi, Joji Suzuki, Kazuya Tsubokura and Kunikazu Kobayashi:
 <br>Trajectory Prediction of Players and the Ball Using a Bidirectional GRU for RoboCup Soccer Simulation 2D,
 <br>Proc. of 2025 IEEE 14th Global Conference on Consumer Electronics (GCCE 2025), Sep. 2025.
+1. Kazuya Tsubokura, Yurie Iribe and Norihide Kitaoka:
+<br>Toward Natural System Repair: An Analysis of Human Other-Initiated Self-Repair Patterns in Japanese Casual Conversations,
+<br>Proc. of the 17th Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC 2025), Oct. 2025.
 
 ## 国際会議（査読なし）
 1. You Aizawa, Kenta Hidaka, Nodoka Mori, Kosei Ohkusu, Kazuho Takahashi, Yoshiyuki Uemura, Mikiya Chiba, Keiji Hayashi, Kazuki Ito, Toshiki Nagami, Yuji Shimizu, Yuji Yamada, Kouki Hosokawa, Shinya Ito, Takashi Kuboya, Goki Ohta, Takuma Tachi, Kazumi Tanabe, Kazuya Tsubokura, Takuo Suzuki, and Kunikazu Kobayashi:
