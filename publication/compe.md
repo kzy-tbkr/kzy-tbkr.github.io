@@ -47,6 +47,7 @@ title: 出場したコンペなどの記録
 - [人狼知能大会 2025春季国内大会 自然言語処理部門](https://aiwolfdial.github.io/aiwolf-nlp/page/aiwolfdial_2025springjp/)
   - 5人村 主観評価1位
   - 13人村 主観評価1位，勝率同率首位
+- [International AIWolf Contest 2025 and AIWolfDial 2025 Workshop at INLG 2025](https://aiwolfdial.github.io/aiwolf-nlp/en/page/inlg_2025/)
 
 ---
 - [ホームへ戻る](../)
