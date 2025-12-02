@@ -53,7 +53,7 @@ title: 業績一覧
 <br>Speech based detection of preclinical Alzheimer’s disease in free conversation,
 <br>Sixth Joint Meeting: Acoustical Society of America and Acoustical Society of Japan, Dec. 2025 (abstract reviewed).
 
-## 国際会議（査読なし）
+## 国際シンポジウム・コンペティション（査読なし）
 1. You Aizawa, Kenta Hidaka, Nodoka Mori, Kosei Ohkusu, Kazuho Takahashi, Yoshiyuki Uemura, Mikiya Chiba, Keiji Hayashi, Kazuki Ito, Toshiki Nagami, Yuji Shimizu, Yuji Yamada, Kouki Hosokawa, Shinya Ito, Takashi Kuboya, Goki Ohta, Takuma Tachi, Kazumi Tanabe, Kazuya Tsubokura, Takuo Suzuki, and Kunikazu Kobayashi:
 <br>Camellia Dragons Team Description,
 <br>Proc. of the 22th Annual RoboCup International Symposium, June 2018.
