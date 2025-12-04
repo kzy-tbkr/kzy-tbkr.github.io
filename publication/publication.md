@@ -45,13 +45,14 @@ title: 業績一覧
 <br>Toward Natural System Repair: An Analysis of Human Other-Initiated Self-Repair Patterns in Japanese Casual Conversations,
 <br>Proc. of the 17th Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC 2025), Oct. 2025.
 1. Kazuya Tsubokura, Yurie Iribe and Norihide Kitaoka:
-<br>Modeling degree of dialogue breakdown in open-domain conversations, Proc. of Sixth Joint Meeting: Acoustical Society of America and Acoustical Society of Japan, Dec. 2025 (abstract reviewed).
+<br>Modeling degree of dialogue breakdown in open-domain conversations,
+<br>the Sixth Joint Meeting: Acoustical Society of America and Acoustical Society of Japan, Dec. 2025 (abstract reviewed).
 1. Yua Nishio, Kazuya Tsubokura, Shusuke Kojima, Sei Sato, Makoto Morishita and Yurie Iribe:
 <br>Real-time livestock monitoring system comprising cattle vocalization detection and individual identification,
-<br>Sixth Joint Meeting: Acoustical Society of America and Acoustical Society of Japan, Dec. 2025 (abstract reviewed).
+<br>the Sixth Joint Meeting: Acoustical Society of America and Acoustical Society of Japan, Dec. 2025 (abstract reviewed).
 1. Qianqian Zhou, Kazuya Tsubokura, Yurie Iribe, Katsunori Yokoi, Akinori Nakamura, Norihide Kitaoka and Masahisa Katsuno:
 <br>Speech based detection of preclinical Alzheimer’s disease in free conversation,
-<br>Sixth Joint Meeting: Acoustical Society of America and Acoustical Society of Japan, Dec. 2025 (abstract reviewed).
+<br>the Sixth Joint Meeting: Acoustical Society of America and Acoustical Society of Japan, Dec. 2025 (abstract reviewed).
 
 ## 国際シンポジウム・コンペティション（査読なし）
 1. You Aizawa, Kenta Hidaka, Nodoka Mori, Kosei Ohkusu, Kazuho Takahashi, Yoshiyuki Uemura, Mikiya Chiba, Keiji Hayashi, Kazuki Ito, Toshiki Nagami, Yuji Shimizu, Yuji Yamada, Kouki Hosokawa, Shinya Ito, Takashi Kuboya, Goki Ohta, Takuma Tachi, Kazumi Tanabe, Kazuya Tsubokura, Takuo Suzuki, and Kunikazu Kobayashi:
