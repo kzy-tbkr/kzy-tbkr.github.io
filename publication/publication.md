@@ -42,7 +42,7 @@ title: 業績一覧
 <br>Trajectory Prediction of Players and the Ball Using a Bidirectional GRU for RoboCup Soccer Simulation 2D,
 <br>Proc. of 2025 IEEE 14th Global Conference on Consumer Electronics (GCCE 2025), Sep. 2025.
 1. Kazuya Tsubokura, Yurie Iribe and Norihide Kitaoka:
-<br>Toward Natural System Repair: An Analysis of Human Other-Initiated Self-Repair Patterns in Japanese Casual Conversations,
+<br>[Toward Natural System Repair: An Analysis of Human Other-Initiated Self-Repair Patterns in Japanese Casual Conversations](https://ieeexplore.ieee.org/document/11249290),
 <br>Proc. of the 17th Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC 2025), Oct. 2025.
 1. Kazuya Tsubokura, Yurie Iribe and Norihide Kitaoka:
 <br>Modeling degree of dialogue breakdown in open-domain conversations,
