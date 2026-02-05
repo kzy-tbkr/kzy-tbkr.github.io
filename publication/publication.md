@@ -36,10 +36,10 @@ title: 業績一覧
 <br>[Building a Role-Play Interactive System using LLM for Health Guidance Education](https://ieeexplore.ieee.org/document/10759994),
 <br>Proc. of 2024 Joint 13th International Conference on Soft Computing and Intelligent Systems and 25th International Symposium on Advanced Intelligent Systems (SCIS&ISIS), Nov. 2024.
 1. Joji Suzuki, Kazuya Tsubokura, Reon Ohashi and Kunikazu Kobayashi:
-<br>Automatic Generation of RoboCup Soccer Highlight Videos Using a Large Multimodal Model,
+<br>[Automatic Generation of RoboCup Soccer Highlight Videos Using a Large Multimodal Model](https://ieeexplore.ieee.org/document/11274958),
 <br>Proc. of 2025 IEEE 14th Global Conference on Consumer Electronics (GCCE 2025), Sep. 2025.
 1. Reon Ohashi, Joji Suzuki, Kazuya Tsubokura and Kunikazu Kobayashi:
-<br>Trajectory Prediction of Players and the Ball Using a Bidirectional GRU for RoboCup Soccer Simulation 2D,
+<br>[Trajectory Prediction of Players and the Ball Using a Bidirectional GRU for RoboCup Soccer Simulation 2D](https://ieeexplore.ieee.org/document/11275122),
 <br>Proc. of 2025 IEEE 14th Global Conference on Consumer Electronics (GCCE 2025), Sep. 2025.
 1. Kazuya Tsubokura, Yurie Iribe and Norihide Kitaoka:
 <br>[Toward Natural System Repair: An Analysis of Human Other-Initiated Self-Repair Patterns in Japanese Casual Conversations](https://ieeexplore.ieee.org/document/11249290),
