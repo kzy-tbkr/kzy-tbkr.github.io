@@ -4,8 +4,8 @@ title: 業績一覧
 ---
 - [ホームへ戻る](../)
 
-## 論文（査読あり）
-1. Kazuya Tsubokura, Yurie Iribe & Norihide Kitaoka:
+## ジャーナル論文（査読あり）
+1. Kazuya Tsubokura, Yurie Iribe and Norihide Kitaoka:
 <br>[Analysis of the relationship between user response to dialog breakdown and personality traits](https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2279610),
 <br>Advanced Robotics, Vol.38, No.4, pp.246-255, March 2024.
 <br>DOI: 10.1080/01691864.2023.2279610
@@ -19,20 +19,20 @@ title: 業績一覧
 <br>DOI: 10.14923/transinfj.2024PDP0035
 
 ## 国際会議（査読あり）
-1. Kazuya Tsubokura, Takashi Kuboya, Takuma Tachi, Akihisa Sanae, and Kunikazu Kobayashi:
+1. Kazuya Tsubokura, Takashi Kuboya, Takuma Tachi, Akihisa Sanae and Kunikazu Kobayashi:
 <br>[A digital speech watermarking method using spread spectrum for secret communication in RoboCup Soccer](https://www.osaka-kyoiku.ac.jp/~challeng/RCAP2021/symposium_overview.html),
 <br>Proc. of RoboCup Asia-Pacific 2021 Symposium, RCAP2021-04-PM1-2, 11pages, Nov. 2021.
    - __<span style="color: red; ">ロボカップ研究賞 受賞</span>__
-1. Kazuya Tsubokura, Yurie Iribe, and Norihide Kitaoka:
+1. Kazuya Tsubokura, Yurie Iribe and Norihide Kitaoka:
 <br>[Dialog Breakdown Detection Using Multimodal Features for Non-Task-Oriented Dialog Systems](https://ieeexplore.ieee.org/document/10014052),
 <br>Proc. of 2022 IEEE 11th Global Conference on Consumer Electronics (GCCE 2022), Oct. 2022.
-1. Kazuya Tsubokura, Yurie Iribe, and Norihide Kitaoka:
+1. Kazuya Tsubokura, Yurie Iribe and Norihide Kitaoka:
 <br>[Relationships between Gender, Personality Traits and Features of Multi-Modal Data to Response to Spoken Dialog Systems Breakdown](https://www.isca-speech.org/archive/interspeech_2023/tsubokura23_interspeech.html),
 <br>Proc. of INTERSPEECH2023, Aug. 2023.
-1. Kazuya Tsubokura, Takuya Takeda, Yurie Iribe, and Norihide Kitaoka:
+1. Kazuya Tsubokura, Takuya Takeda, Yurie Iribe and Norihide Kitaoka:
 <br>Dialog Breakdown Recovery Strategies Based on User Personality,
 <br>Proc. of The 14th International Workshop on Spoken Dialogue Systems Technology (IWSDS2024), March 2024.
-1. Shinjitsu Agatsuma, Reon Ohashi, Kazuya Tsubokura, Yua Nishio, Mai Ishikawa, Niina Ito, Fukuka Ito, Shiori Minami,Nao Takegawa, Riko Nakamura, Kana Yokoyama:
+1. Shinjitsu Agatsuma, Reon Ohashi, Kazuya Tsubokura, Yua Nishio, Mai Ishikawa, Niina Ito, Fukuka Ito, Shiori Minami,Nao Takegawa, Riko Nakamura and Kana Yokoyama:
 <br>[Building a Role-Play Interactive System using LLM for Health Guidance Education](https://ieeexplore.ieee.org/document/10759994),
 <br>Proc. of 2024 Joint 13th International Conference on Soft Computing and Intelligent Systems and 25th International Symposium on Advanced Intelligent Systems (SCIS&ISIS), Nov. 2024.
 1. Joji Suzuki, Kazuya Tsubokura, Reon Ohashi and Kunikazu Kobayashi:
@@ -44,18 +44,20 @@ title: 業績一覧
 1. Kazuya Tsubokura, Yurie Iribe and Norihide Kitaoka:
 <br>[Toward Natural System Repair: An Analysis of Human Other-Initiated Self-Repair Patterns in Japanese Casual Conversations](https://ieeexplore.ieee.org/document/11249290),
 <br>Proc. of the 17th Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC 2025), Oct. 2025.
+
+## 国際会議（abstract reviewed）
 1. Kazuya Tsubokura, Yurie Iribe and Norihide Kitaoka:
 <br>Modeling degree of dialogue breakdown in open-domain conversations,
-<br>the Sixth Joint Meeting: Acoustical Society of America and Acoustical Society of Japan, Dec. 2025 (abstract reviewed).
+<br>the Sixth Joint Meeting: Acoustical Society of America and Acoustical Society of Japan, Dec. 2025.
 1. Yua Nishio, Kazuya Tsubokura, Shusuke Kojima, Sei Sato, Makoto Morishita and Yurie Iribe:
 <br>Real-time livestock monitoring system comprising cattle vocalization detection and individual identification,
-<br>the Sixth Joint Meeting: Acoustical Society of America and Acoustical Society of Japan, Dec. 2025 (abstract reviewed).
+<br>the Sixth Joint Meeting: Acoustical Society of America and Acoustical Society of Japan, Dec. 2025.
 1. Qianqian Zhou, Kazuya Tsubokura, Yurie Iribe, Katsunori Yokoi, Akinori Nakamura, Norihide Kitaoka and Masahisa Katsuno:
 <br>Speech based detection of preclinical Alzheimer’s disease in free conversation,
-<br>the Sixth Joint Meeting: Acoustical Society of America and Acoustical Society of Japan, Dec. 2025 (abstract reviewed).
+<br>the Sixth Joint Meeting: Acoustical Society of America and Acoustical Society of Japan, Dec. 2025.
 1. Reon Ohashi, Joji Suzuki, Kazuya Tsubokura, Hibiki Sakurai and Kunikazu Kobayashi:
 <br>Development of a LLM-based Interactive Agent in Word Wolf Game,
-<br>31st International Symposium on Artificial Life and Robotics and 11th International Symposium on BioComplexity (AROB-ISBC2026), Jan. 2026 (abstract reviewed).
+<br>31st International Symposium on Artificial Life and Robotics and 11th International Symposium on BioComplexity (AROB-ISBC2026), Jan. 2026.
 
 ## 国際シンポジウム・コンペティション（査読なし）
 1. You Aizawa, Kenta Hidaka, Nodoka Mori, Kosei Ohkusu, Kazuho Takahashi, Yoshiyuki Uemura, Mikiya Chiba, Keiji Hayashi, Kazuki Ito, Toshiki Nagami, Yuji Shimizu, Yuji Yamada, Kouki Hosokawa, Shinya Ito, Takashi Kuboya, Goki Ohta, Takuma Tachi, Kazumi Tanabe, Kazuya Tsubokura, Takuo Suzuki, and Kunikazu Kobayashi:
