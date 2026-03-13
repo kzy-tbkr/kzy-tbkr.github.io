@@ -71,7 +71,7 @@ title: 業績一覧
 <br>[Team Irisapu Project Description for DRC2023](https://arxiv.org/abs/2312.13765),
 <br>Proc. of [the Dialogue Robot Competition 2023](https://www.alps-lab.org/drc2023/index.html), Dec. 2023.
 
-## 国内会議・シンポジウム
+## 国内会議・シンポジウム・ワークショップ
 1. 坪倉 和哉，久保谷 空史，舘 拓磨，小林 邦和：<br>[RoboCupサッカーおける秘匿通信のためのスペクトル拡散を用いた音声電子透かし法の提案](http://www.osaka-kyoiku.ac.jp/~challeng/SIG-Challenge-057/)，<br>人工知能学会 AIチャレンジ研究会(第57回)，pp.100-105，Nov. 2020．
 1. 山田 麻瑚，坪倉 和哉，入部 百合絵，北岡 教英：<br>マルチモーダル対話におけるユーザの振る舞いに着目した対話破綻検出，<br>映情学技報，Vol.45，No.6，ME2021-35，pp.25-28，Feb. 2021．
 1. 坪倉 和哉，鈴木 海斗，入部 百合絵，北岡 教英：<br>[対話破綻を含むマルチモーダル対話コーパスの収集と対話破綻検出](https://jsai.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=23&item_id=10997&item_no=1)，<br>人工知能学会 第91回言語・音声理解と対話処理研究会，SIG-SLUD-C003-21，pp.122-127，March 2021．
@@ -124,6 +124,8 @@ title: 業績一覧
 1. 我妻 信実，坪倉 和哉，中山 怜士，金田 修香，中村 莉子，檜物 春佳，横山 加奈：<br>自宅通学者が多い大学における通学時間と睡眠時間、精神的健康との関連，<br>第84回日本公衆衛生学会総会，PB-04-14，Oct. 2025．
 1. 坪倉 和哉，入部 百合絵，北岡 教英：<br>[対話破綻修復のためのコーパス構築と修復発話生成](https://www.jstage.jst.go.jp/article/jsaislud/106/0/106_165/_article/-char/ja)，<br>人工知能学会 第106回言語・音声理解と対話処理研究会，pp.165-170，SIG-SLUD-106-29，March，2026．
 1. 西尾 優亜，坪倉 和哉，神谷 咲月，小島 秀介，兼子 明美，入部 百合絵：<br>牛音声の未知・既知混合条件下におけるオープンセット個体認識とFew-Shot学習の有効性，<br>情報処理学会 第88回全国大会，2ZE-03，March，2026．
+1. 山本 ゆのか，西尾 琉惺，松垣 颯夏，鈴木 丈慈，黒古 歩希，大橋 玲音，坪倉 和哉，小林 邦和：<br>[JMDC-MM：「マーダーミステリー」における日本語多人数議論対話コーパス構築の試み](https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/P3-7.pdf)，<br>言語処理学会第32回年次大会(NLP2026)，P3-7，March，2026．
+1. 坪倉 和哉，入部 百合絵，北岡 教英：<br>ユーザの個人特性を含む破綻・修復発話文の収集，<br>言語処理学会第32回年次大会（NLP2026） 併設ワークショップ「日本語言語資源の構築と利用性の向上（JLR2026）」，March，2026．
 
 ## 奨学金・資金獲得等
 - 愛知県ロボット国際大会競技チーム強化支援事業（2019年度）
