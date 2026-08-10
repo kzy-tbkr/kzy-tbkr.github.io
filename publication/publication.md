@@ -47,6 +47,9 @@ title: 業績一覧
 1. Kazuya Tsubokura, Yurie Iribe and Norihide Kitaoka:
 <br>[A Corpus for Personalized Dialogue Breakdown Repair in Japanese Open-Domain Conversations](https://lrec.elra.info/lrec2026-main-227),
 <br>Proc. of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), pp.2899-2912, May 2026.
+1. Kazuya Tsubokura, Yurie Iribe and Norihide Kitaoka:
+<br>[Generation of Dialogue Breakdown Repair Utterance in Non-task Oriented Conversation](https://aclanthology.org/2026.sigdial-1.38/),
+<br>Proc. of the 27th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL 2026), pp.553-558, Aug. 2026.
 
 ## 国際会議（abstract reviewed）
 1. Kazuya Tsubokura, Yurie Iribe and Norihide Kitaoka:
